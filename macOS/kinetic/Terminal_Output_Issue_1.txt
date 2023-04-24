@@ -1,0 +1,39 @@
+ros-install-project-2@John-Pauls-MacBook-Pro ~ % brew update
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+blocky         enchive        hz             libansilove    notify
+==> New Casks
+cursor
+==> Outdated Formulae
+cmake                                pillow
+
+You have 2 outdated formulae installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+ros-install-project-2@John-Pauls-MacBook-Pro ~ % brew install cmake                        
+Warning: Treating cmake as a formula. For the cask, use homebrew/cask/cmake
+==> Fetching cmake
+==> Downloading https://ghcr.io/v2/homebrew/core/cmake/manifests/3.26.2
+Already downloaded: /Users/ros-install-project-2/Library/Caches/Homebrew/downloads/330a6df9c2777a60b774d97ec6e05d083b1e2b9973e3395059e9d81dd4665685--cmake-3.26.2.bottle_manifest.json
+==> Downloading https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:550d046ee4d856b2977af062066d4ce9deeb84d690bf9075f8461a3c479d9e5e
+Already downloaded: /Users/ros-install-project-2/Library/Caches/Homebrew/downloads/28260129e95349f79328dd7984cdf890b24ba9e04dce9a220d80339f399bff97--cmake--3.26.2.big_sur.bottle.tar.gz
+==> Pouring cmake--3.26.2.big_sur.bottle.tar.gz
+==> Caveats
+To install the CMake documentation, run:
+  brew install cmake-docs
+
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/cmake
+==> Summary
+🍺  /usr/local/Cellar/cmake/3.26.2: 3,188 files, 50MB
+==> Running `brew cleanup cmake`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /usr/local/Cellar/cmake/3.26.0... (3,188 files, 50MB)
+Removing: /Users/ros-install-project-2/Library/Caches/Homebrew/cmake--3.26.1... (16.5MB)
+ros-install-project-2@John-Pauls-MacBook-Pro ~ % brew tap ros/deps
+ros-install-project-2@John-Pauls-MacBook-Pro ~ % brew tap osrf/simulation
+ros-install-project-2@John-Pauls-MacBook-Pro ~ % brew tap homebrew/core
+ros-install-project-2@John-Pauls-MacBook-Pro ~ % brew tap homebrew/science 
+Error: homebrew/science was deprecated. This tap is now empty and all its contents were either deleted or migrated.
+ros-install-project-2@John-Pauls-MacBook-Pro ~ % 
