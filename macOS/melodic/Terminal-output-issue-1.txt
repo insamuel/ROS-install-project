@@ -1,0 +1,354 @@
+ros-install-project@John-Pauls-MacBook-Pro ~ % brew update
+Already up-to-date.
+ros-install-project@John-Pauls-MacBook-Pro ~ % brew install cmake
+Warning: Treating cmake as a formula. For the cask, use homebrew/cask/cmake
+==> Fetching cmake
+==> Downloading https://ghcr.io/v2/homebrew/core/cmake/manifests/3.26.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:5175a6fee50
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Pouring cmake--3.26.0.big_sur.bottle.tar.gz
+==> Caveats
+To install the CMake documentation, run:
+  brew install cmake-docs
+
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/cmake
+==> Summary
+🍺  /usr/local/Cellar/cmake/3.26.0: 3,188 files, 50MB
+==> Running `brew cleanup cmake`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+ros-install-project@John-Pauls-MacBook-Pro ~ % brew install poco 
+==> Fetching dependencies for poco: ca-certificates, openssl@3 and pcre2
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2023
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:1
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.1.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:2f678f6
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.42
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:1d858ca3171
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching poco
+==> Downloading https://ghcr.io/v2/homebrew/core/poco/manifests/1.12.4
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/poco/blobs/sha256:4bf713bc813c
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Installing dependencies for poco: ca-certificates, openssl@3 and pcre2
+==> Installing poco dependency: ca-certificates
+==> Pouring ca-certificates--2023-01-10.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /usr/local/Cellar/ca-certificates/2023-01-10: 3 files, 216.9KB
+==> Installing poco dependency: openssl@3
+==> Pouring openssl@3--3.1.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/openssl@3/3.1.0: 6,494 files, 30MB
+==> Installing poco dependency: pcre2
+==> Pouring pcre2--10.42.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/pcre2/10.42: 230 files, 6.4MB
+==> Installing poco
+==> Pouring poco--1.12.4.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/poco/1.12.4: 916 files, 13.8MB
+==> Running `brew cleanup poco`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+ros-install-project@John-Pauls-MacBook-Pro ~ % brew install gpgme
+==> Fetching dependencies for gpgme: gmp, libunistring, gettext, libidn2, libtasn1, nettle, p11-kit, openssl@1.1, libevent, libnghttp2, unbound, gnutls, libgpg-error, libassuan, libgcrypt, libksba, libusb, npth, pinentry, readline and gnupg
+==> Fetching gmp
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/manifests/6.2.1_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/blobs/sha256:e566452815d2f
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libunistring
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/manifests/1.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/blobs/sha256:55a3
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.21.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:95086fa8b
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libidn2
+==> Downloading https://ghcr.io/v2/homebrew/core/libidn2/manifests/2.3.4_1-1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libidn2/blobs/sha256:234beba5f
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libtasn1
+==> Downloading https://ghcr.io/v2/homebrew/core/libtasn1/manifests/4.19.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libtasn1/blobs/sha256:45a93525
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching nettle
+==> Downloading https://ghcr.io/v2/homebrew/core/nettle/manifests/3.8.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/nettle/blobs/sha256:48493dc588
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching p11-kit
+==> Downloading https://ghcr.io/v2/homebrew/core/p11-kit/manifests/0.24.1_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/p11-kit/blobs/sha256:0a34fda32
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching openssl@1.1
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/manifests/1.1.1t
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:c357c
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libevent
+==> Downloading https://ghcr.io/v2/homebrew/core/libevent/manifests/2.1.12
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libevent/blobs/sha256:45758b44
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.52.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:cf3cd5
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching unbound
+==> Downloading https://ghcr.io/v2/homebrew/core/unbound/manifests/1.17.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/unbound/blobs/sha256:55e865da9
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching gnutls
+==> Downloading https://ghcr.io/v2/homebrew/core/gnutls/manifests/3.8.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gnutls/blobs/sha256:d1cddbab50
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libgpg-error
+==> Downloading https://ghcr.io/v2/homebrew/core/libgpg-error/manifests/1.46-1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libgpg-error/blobs/sha256:f272
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libassuan
+==> Downloading https://ghcr.io/v2/homebrew/core/libassuan/manifests/2.5.5
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libassuan/blobs/sha256:3d14f18
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libgcrypt
+==> Downloading https://ghcr.io/v2/homebrew/core/libgcrypt/manifests/1.10.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libgcrypt/blobs/sha256:e3c2dfd
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libksba
+==> Downloading https://ghcr.io/v2/homebrew/core/libksba/manifests/1.6.3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libksba/blobs/sha256:50f9fee0e
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libusb
+==> Downloading https://ghcr.io/v2/homebrew/core/libusb/manifests/1.0.26
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libusb/blobs/sha256:963720057a
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching npth
+==> Downloading https://ghcr.io/v2/homebrew/core/npth/manifests/1.6
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/npth/blobs/sha256:dde67b8b6f6a
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching pinentry
+==> Downloading https://ghcr.io/v2/homebrew/core/pinentry/manifests/1.2.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pinentry/blobs/sha256:51144f3f
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:e6dfc7d9
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching gnupg
+==> Downloading https://ghcr.io/v2/homebrew/core/gnupg/manifests/2.4.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gnupg/blobs/sha256:126299309b9
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching gpgme
+==> Downloading https://ghcr.io/v2/homebrew/core/gpgme/manifests/1.19.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gpgme/blobs/sha256:22eff205c6e
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Installing dependencies for gpgme: gmp, libunistring, gettext, libidn2, libtasn1, nettle, p11-kit, openssl@1.1, libevent, libnghttp2, unbound, gnutls, libgpg-error, libassuan, libgcrypt, libksba, libusb, npth, pinentry, readline and gnupg
+==> Installing gpgme dependency: gmp
+==> Pouring gmp--6.2.1_1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/gmp/6.2.1_1: 21 files, 3.3MB
+==> Installing gpgme dependency: libunistring
+==> Pouring libunistring--1.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libunistring/1.1: 56 files, 4.9MB
+==> Installing gpgme dependency: gettext
+==> Pouring gettext--0.21.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/gettext/0.21.1: 1,983 files, 20.6MB
+==> Installing gpgme dependency: libidn2
+==> Pouring libidn2--2.3.4_1.big_sur.bottle.1.tar.gz
+🍺  /usr/local/Cellar/libidn2/2.3.4_1: 79 files, 1003.8KB
+==> Installing gpgme dependency: libtasn1
+==> Pouring libtasn1--4.19.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libtasn1/4.19.0: 61 files, 658.2KB
+==> Installing gpgme dependency: nettle
+==> Pouring nettle--3.8.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/nettle/3.8.1: 91 files, 2.8MB
+==> Installing gpgme dependency: p11-kit
+==> Pouring p11-kit--0.24.1_1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/p11-kit/0.24.1_1: 67 files, 3.6MB
+==> Installing gpgme dependency: openssl@1.1
+==> Pouring openssl@1.1--1.1.1t.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/openssl@1.1/1.1.1t: 8,101 files, 18.5MB
+==> Installing gpgme dependency: libevent
+==> Pouring libevent--2.1.12.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libevent/2.1.12: 57 files, 2MB
+==> Installing gpgme dependency: libnghttp2
+==> Pouring libnghttp2--1.52.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libnghttp2/1.52.0: 13 files, 714.8KB
+==> Installing gpgme dependency: unbound
+==> Pouring unbound--1.17.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/unbound/1.17.1: 58 files, 5.9MB
+==> Installing gpgme dependency: gnutls
+==> Pouring gnutls--3.8.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/gnutls/3.8.0: 1,281 files, 10.6MB
+==> Installing gpgme dependency: libgpg-error
+==> Pouring libgpg-error--1.46.big_sur.bottle.1.tar.gz
+🍺  /usr/local/Cellar/libgpg-error/1.46: 48 files, 1.6MB
+==> Installing gpgme dependency: libassuan
+==> Pouring libassuan--2.5.5.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libassuan/2.5.5: 17 files, 505.5KB
+==> Installing gpgme dependency: libgcrypt
+==> Pouring libgcrypt--1.10.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libgcrypt/1.10.1: 23 files, 3.3MB
+==> Installing gpgme dependency: libksba
+==> Pouring libksba--1.6.3.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libksba/1.6.3: 18 files, 494.6KB
+==> Installing gpgme dependency: libusb
+==> Pouring libusb--1.0.26.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libusb/1.0.26: 22 files, 532KB
+==> Installing gpgme dependency: npth
+==> Pouring npth--1.6.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/npth/1.6: 12 files, 134KB
+==> Installing gpgme dependency: pinentry
+==> Pouring pinentry--1.2.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/pinentry/1.2.1: 12 files, 381KB
+==> Installing gpgme dependency: readline
+==> Pouring readline--8.2.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/readline/8.2.1: 50 files, 1.7MB
+==> Installing gpgme dependency: gnupg
+==> Pouring gnupg--2.4.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/gnupg/2.4.0: 151 files, 13.8MB
+==> Installing gpgme
+==> Pouring gpgme--1.19.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/gpgme/1.19.0: 75 files, 3.7MB
+==> Running `brew cleanup gpgme`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+ros-install-project@John-Pauls-MacBook-Pro ~ % brew tap ros/deps 
+==> Tapping ros/deps
+Cloning into '/usr/local/Homebrew/Library/Taps/ros/homebrew-deps'...
+remote: Enumerating objects: 104, done.
+remote: Total 104 (delta 0), reused 0 (delta 0), pack-reused 104
+Receiving objects: 100% (104/104), 27.19 KiB | 3.02 MiB/s, done.
+Resolving deltas: 100% (47/47), done.
+Tapped 6 formulae (20 files, 54.2KB).
+ros-install-project@John-Pauls-MacBook-Pro ~ % brew tap osrf/simulation
+==> Tapping osrf/simulation
+Cloning into '/usr/local/Homebrew/Library/Taps/osrf/homebrew-simulation'...
+remote: Enumerating objects: 11653, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (24/24), done.
+remote: Total 11653 (delta 13), reused 2 (delta 0), pack-reused 11629
+Receiving objects: 100% (11653/11653), 2.69 MiB | 9.67 MiB/s, done.
+Resolving deltas: 100% (8744/8744), done.
+Tapped 103 formulae (242 files, 3.4MB).
+ros-install-project@John-Pauls-MacBook-Pro ~ % brew tap homebrew/core
+==> Tapping homebrew/core
+Cloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core'...
+remote: Enumerating objects: 1441187, done.
+remote: Counting objects: 100% (283/283), done.
+remote: Compressing objects: 100% (133/133), done.
+remote: Total 1441187 (delta 167), reused 256 (delta 150), pack-reused 1440904
+Receiving objects: 100% (1441187/1441187), 555.82 MiB | 11.81 MiB/s, done.
+Resolving deltas: 100% (1006305/1006305), done.
+Updating files: 100% (6936/6936), done.
+Tapped 2 commands and 6594 formulae (6,947 files, 611MB).
+ros-install-project@John-Pauls-MacBook-Pro ~ % python --version      
+Python 2.7.16
+ros-install-project@John-Pauls-MacBook-Pro ~ % mkdir -p ~/Library/Python/2.7/lib/python/site-packages
+ros-install-project@John-Pauls-MacBook-Pro ~ % echo "$(brew --prefix)/lib/python2.7/site-packages" >> ~/Library/Python/2.7/lib/python/site-packages/homebrew.pth
+ros-install-project@John-Pauls-MacBook-Pro ~ % python -m ensurepip --upgrade
+Looking in links: /var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/tmpQhb3NU
+Requirement already up-to-date: setuptools in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (41.0.1)
+Collecting pip
+Installing collected packages: pip
+Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/Library/Python/2.7/site-packages/pip'
+Consider using the `--user` option or check the permissions.
+
+ros-install-project@John-Pauls-MacBook-Pro ~ % sudo python -m ensurepip --upgrade
+The directory '/Users/ros-install-project/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/Users/ros-install-project/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Looking in links: /tmp/tmp_wUI0l
+Requirement already up-to-date: setuptools in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (41.0.1)
+Collecting pip
+Installing collected packages: pip
+Successfully installed pip-18.1
+ros-install-project@John-Pauls-MacBook-Pro ~ % sudo -H pip install -U defusedxml empy pycryptodome
+Password:
+Collecting defusedxml
+  Downloading https://files.pythonhosted.org/packages/07/6c/aa3f2f849e01cb6a001cd8554a88d4c77c5c1a31c95bdf1cf9301e6d9ef4/defusedxml-0.7.1-py2.py3-none-any.whl
+Collecting empy
+  Downloading https://files.pythonhosted.org/packages/3b/95/88ed47cb7da88569a78b7d6fb9420298df7e99997810c844a924d96d3c08/empy-3.3.4.tar.gz (62kB)
+    100% |████████████████████████████████| 71kB 2.9MB/s 
+Collecting pycryptodome
+  Downloading https://files.pythonhosted.org/packages/b0/19/25bbc06ab3556803635a3ef2dc334eb5aa5d546083f26bc6d2d553ce2786/pycryptodome-3.17-cp27-cp27m-macosx_10_9_x86_64.whl (1.6MB)
+    100% |████████████████████████████████| 1.6MB 3.7MB/s 
+Building wheels for collected packages: empy
+  Running setup.py bdist_wheel for empy ... done
+  Stored in directory: /var/root/Library/Caches/pip/wheels/bd/e0/93/4558733f591dd47c560c86ddf8e8c81f5a0ae0493c52e4c56f
+Successfully built empy
+Installing collected packages: defusedxml, empy, pycryptodome
+Successfully installed defusedxml-0.7.1 empy-3.3.4 pycryptodome-3.17
+You are using pip version 18.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+ros-install-project@John-Pauls-MacBook-Pro ~ % sudo -H pip install -U wxPython
+Collecting wxPython
+  Downloading https://files.pythonhosted.org/packages/d9/33/b616c7ed4742be6e0d111ca375b41379607dc7cc7ac7ff6aead7a5a0bf53/wxPython-4.2.0.tar.gz (71.0MB)
+    100% |████████████████████████████████| 71.0MB 366kB/s 
+    Complete output from command python setup.py egg_info:
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/private/tmp/pip-install-G4Cou8/wxPython/setup.py", line 27, in <module>
+        from buildtools.config import Config, msg, opj, runcmd, canGetSOName, getSOName
+      File "buildtools/config.py", line 30, in <module>
+        from attrdict import AttrDict
+    ImportError: No module named attrdict
+    
+    ----------------------------------------
+Command "python setup.py egg_info" failed with error code 1 in /private/tmp/pip-install-G4Cou8/wxPython/
+You are using pip version 18.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+ros-install-project@John-Pauls-MacBook-Pro ~ %                                

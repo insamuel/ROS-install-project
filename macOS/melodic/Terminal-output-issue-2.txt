@@ -1,0 +1,3501 @@
+ros-install-project@John-Pauls-MacBook-Pro ~ % brew update
+Already up-to-date.
+ros-install-project@John-Pauls-MacBook-Pro ~ % brew install cmake
+Warning: Treating cmake as a formula. For the cask, use homebrew/cask/cmake
+==> Fetching cmake
+==> Downloading https://ghcr.io/v2/homebrew/core/cmake/manifests/3.26.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:5175a6fee50
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Pouring cmake--3.26.0.big_sur.bottle.tar.gz
+==> Caveats
+To install the CMake documentation, run:
+  brew install cmake-docs
+
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/cmake
+==> Summary
+🍺  /usr/local/Cellar/cmake/3.26.0: 3,188 files, 50MB
+==> Running `brew cleanup cmake`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+ros-install-project@John-Pauls-MacBook-Pro ~ % brew install poco 
+==> Fetching dependencies for poco: ca-certificates, openssl@3 and pcre2
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2023
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:1
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.1.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:2f678f6
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.42
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:1d858ca3171
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching poco
+==> Downloading https://ghcr.io/v2/homebrew/core/poco/manifests/1.12.4
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/poco/blobs/sha256:4bf713bc813c
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Installing dependencies for poco: ca-certificates, openssl@3 and pcre2
+==> Installing poco dependency: ca-certificates
+==> Pouring ca-certificates--2023-01-10.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /usr/local/Cellar/ca-certificates/2023-01-10: 3 files, 216.9KB
+==> Installing poco dependency: openssl@3
+==> Pouring openssl@3--3.1.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/openssl@3/3.1.0: 6,494 files, 30MB
+==> Installing poco dependency: pcre2
+==> Pouring pcre2--10.42.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/pcre2/10.42: 230 files, 6.4MB
+==> Installing poco
+==> Pouring poco--1.12.4.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/poco/1.12.4: 916 files, 13.8MB
+==> Running `brew cleanup poco`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+ros-install-project@John-Pauls-MacBook-Pro ~ % brew install gpgme
+==> Fetching dependencies for gpgme: gmp, libunistring, gettext, libidn2, libtasn1, nettle, p11-kit, openssl@1.1, libevent, libnghttp2, unbound, gnutls, libgpg-error, libassuan, libgcrypt, libksba, libusb, npth, pinentry, readline and gnupg
+==> Fetching gmp
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/manifests/6.2.1_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/blobs/sha256:e566452815d2f
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libunistring
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/manifests/1.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/blobs/sha256:55a3
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.21.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:95086fa8b
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libidn2
+==> Downloading https://ghcr.io/v2/homebrew/core/libidn2/manifests/2.3.4_1-1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libidn2/blobs/sha256:234beba5f
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libtasn1
+==> Downloading https://ghcr.io/v2/homebrew/core/libtasn1/manifests/4.19.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libtasn1/blobs/sha256:45a93525
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching nettle
+==> Downloading https://ghcr.io/v2/homebrew/core/nettle/manifests/3.8.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/nettle/blobs/sha256:48493dc588
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching p11-kit
+==> Downloading https://ghcr.io/v2/homebrew/core/p11-kit/manifests/0.24.1_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/p11-kit/blobs/sha256:0a34fda32
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching openssl@1.1
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/manifests/1.1.1t
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:c357c
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libevent
+==> Downloading https://ghcr.io/v2/homebrew/core/libevent/manifests/2.1.12
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libevent/blobs/sha256:45758b44
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.52.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:cf3cd5
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching unbound
+==> Downloading https://ghcr.io/v2/homebrew/core/unbound/manifests/1.17.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/unbound/blobs/sha256:55e865da9
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching gnutls
+==> Downloading https://ghcr.io/v2/homebrew/core/gnutls/manifests/3.8.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gnutls/blobs/sha256:d1cddbab50
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libgpg-error
+==> Downloading https://ghcr.io/v2/homebrew/core/libgpg-error/manifests/1.46-1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libgpg-error/blobs/sha256:f272
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libassuan
+==> Downloading https://ghcr.io/v2/homebrew/core/libassuan/manifests/2.5.5
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libassuan/blobs/sha256:3d14f18
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libgcrypt
+==> Downloading https://ghcr.io/v2/homebrew/core/libgcrypt/manifests/1.10.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libgcrypt/blobs/sha256:e3c2dfd
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libksba
+==> Downloading https://ghcr.io/v2/homebrew/core/libksba/manifests/1.6.3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libksba/blobs/sha256:50f9fee0e
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching libusb
+==> Downloading https://ghcr.io/v2/homebrew/core/libusb/manifests/1.0.26
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libusb/blobs/sha256:963720057a
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching npth
+==> Downloading https://ghcr.io/v2/homebrew/core/npth/manifests/1.6
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/npth/blobs/sha256:dde67b8b6f6a
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching pinentry
+==> Downloading https://ghcr.io/v2/homebrew/core/pinentry/manifests/1.2.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pinentry/blobs/sha256:51144f3f
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:e6dfc7d9
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching gnupg
+==> Downloading https://ghcr.io/v2/homebrew/core/gnupg/manifests/2.4.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gnupg/blobs/sha256:126299309b9
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Fetching gpgme
+==> Downloading https://ghcr.io/v2/homebrew/core/gpgme/manifests/1.19.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gpgme/blobs/sha256:22eff205c6e
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/s
+######################################################################## 100.0%
+==> Installing dependencies for gpgme: gmp, libunistring, gettext, libidn2, libtasn1, nettle, p11-kit, openssl@1.1, libevent, libnghttp2, unbound, gnutls, libgpg-error, libassuan, libgcrypt, libksba, libusb, npth, pinentry, readline and gnupg
+==> Installing gpgme dependency: gmp
+==> Pouring gmp--6.2.1_1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/gmp/6.2.1_1: 21 files, 3.3MB
+==> Installing gpgme dependency: libunistring
+==> Pouring libunistring--1.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libunistring/1.1: 56 files, 4.9MB
+==> Installing gpgme dependency: gettext
+==> Pouring gettext--0.21.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/gettext/0.21.1: 1,983 files, 20.6MB
+==> Installing gpgme dependency: libidn2
+==> Pouring libidn2--2.3.4_1.big_sur.bottle.1.tar.gz
+🍺  /usr/local/Cellar/libidn2/2.3.4_1: 79 files, 1003.8KB
+==> Installing gpgme dependency: libtasn1
+==> Pouring libtasn1--4.19.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libtasn1/4.19.0: 61 files, 658.2KB
+==> Installing gpgme dependency: nettle
+==> Pouring nettle--3.8.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/nettle/3.8.1: 91 files, 2.8MB
+==> Installing gpgme dependency: p11-kit
+==> Pouring p11-kit--0.24.1_1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/p11-kit/0.24.1_1: 67 files, 3.6MB
+==> Installing gpgme dependency: openssl@1.1
+==> Pouring openssl@1.1--1.1.1t.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/openssl@1.1/1.1.1t: 8,101 files, 18.5MB
+==> Installing gpgme dependency: libevent
+==> Pouring libevent--2.1.12.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libevent/2.1.12: 57 files, 2MB
+==> Installing gpgme dependency: libnghttp2
+==> Pouring libnghttp2--1.52.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libnghttp2/1.52.0: 13 files, 714.8KB
+==> Installing gpgme dependency: unbound
+==> Pouring unbound--1.17.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/unbound/1.17.1: 58 files, 5.9MB
+==> Installing gpgme dependency: gnutls
+==> Pouring gnutls--3.8.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/gnutls/3.8.0: 1,281 files, 10.6MB
+==> Installing gpgme dependency: libgpg-error
+==> Pouring libgpg-error--1.46.big_sur.bottle.1.tar.gz
+🍺  /usr/local/Cellar/libgpg-error/1.46: 48 files, 1.6MB
+==> Installing gpgme dependency: libassuan
+==> Pouring libassuan--2.5.5.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libassuan/2.5.5: 17 files, 505.5KB
+==> Installing gpgme dependency: libgcrypt
+==> Pouring libgcrypt--1.10.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libgcrypt/1.10.1: 23 files, 3.3MB
+==> Installing gpgme dependency: libksba
+==> Pouring libksba--1.6.3.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libksba/1.6.3: 18 files, 494.6KB
+==> Installing gpgme dependency: libusb
+==> Pouring libusb--1.0.26.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/libusb/1.0.26: 22 files, 532KB
+==> Installing gpgme dependency: npth
+==> Pouring npth--1.6.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/npth/1.6: 12 files, 134KB
+==> Installing gpgme dependency: pinentry
+==> Pouring pinentry--1.2.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/pinentry/1.2.1: 12 files, 381KB
+==> Installing gpgme dependency: readline
+==> Pouring readline--8.2.1.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/readline/8.2.1: 50 files, 1.7MB
+==> Installing gpgme dependency: gnupg
+==> Pouring gnupg--2.4.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/gnupg/2.4.0: 151 files, 13.8MB
+==> Installing gpgme
+==> Pouring gpgme--1.19.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/gpgme/1.19.0: 75 files, 3.7MB
+==> Running `brew cleanup gpgme`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+ros-install-project@John-Pauls-MacBook-Pro ~ % brew tap ros/deps 
+==> Tapping ros/deps
+Cloning into '/usr/local/Homebrew/Library/Taps/ros/homebrew-deps'...
+remote: Enumerating objects: 104, done.
+remote: Total 104 (delta 0), reused 0 (delta 0), pack-reused 104
+Receiving objects: 100% (104/104), 27.19 KiB | 3.02 MiB/s, done.
+Resolving deltas: 100% (47/47), done.
+Tapped 6 formulae (20 files, 54.2KB).
+ros-install-project@John-Pauls-MacBook-Pro ~ % brew tap osrf/simulation
+==> Tapping osrf/simulation
+Cloning into '/usr/local/Homebrew/Library/Taps/osrf/homebrew-simulation'...
+remote: Enumerating objects: 11653, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (24/24), done.
+remote: Total 11653 (delta 13), reused 2 (delta 0), pack-reused 11629
+Receiving objects: 100% (11653/11653), 2.69 MiB | 9.67 MiB/s, done.
+Resolving deltas: 100% (8744/8744), done.
+Tapped 103 formulae (242 files, 3.4MB).
+ros-install-project@John-Pauls-MacBook-Pro ~ % brew tap homebrew/core
+==> Tapping homebrew/core
+Cloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core'...
+remote: Enumerating objects: 1441187, done.
+remote: Counting objects: 100% (283/283), done.
+remote: Compressing objects: 100% (133/133), done.
+remote: Total 1441187 (delta 167), reused 256 (delta 150), pack-reused 1440904
+Receiving objects: 100% (1441187/1441187), 555.82 MiB | 11.81 MiB/s, done.
+Resolving deltas: 100% (1006305/1006305), done.
+Updating files: 100% (6936/6936), done.
+Tapped 2 commands and 6594 formulae (6,947 files, 611MB).
+ros-install-project@John-Pauls-MacBook-Pro ~ % python --version      
+Python 2.7.16
+ros-install-project@John-Pauls-MacBook-Pro ~ % mkdir -p ~/Library/Python/2.7/lib/python/site-packages
+ros-install-project@John-Pauls-MacBook-Pro ~ % echo "$(brew --prefix)/lib/python2.7/site-packages" >> ~/Library/Python/2.7/lib/python/site-packages/homebrew.pth
+ros-install-project@John-Pauls-MacBook-Pro ~ % sudo python -m ensurepip --upgrade
+The directory '/Users/ros-install-project/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/Users/ros-install-project/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Looking in links: /tmp/tmp_wUI0l
+Requirement already up-to-date: setuptools in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (41.0.1)
+Collecting pip
+Installing collected packages: pip
+Successfully installed pip-18.1
+ros-install-project@John-Pauls-MacBook-Pro ~ % sudo -H pip install -U defusedxml empy pycryptodome
+Password:
+Collecting defusedxml
+  Downloading https://files.pythonhosted.org/packages/07/6c/aa3f2f849e01cb6a001cd8554a88d4c77c5c1a31c95bdf1cf9301e6d9ef4/defusedxml-0.7.1-py2.py3-none-any.whl
+Collecting empy
+  Downloading https://files.pythonhosted.org/packages/3b/95/88ed47cb7da88569a78b7d6fb9420298df7e99997810c844a924d96d3c08/empy-3.3.4.tar.gz (62kB)
+    100% |████████████████████████████████| 71kB 2.9MB/s 
+Collecting pycryptodome
+  Downloading https://files.pythonhosted.org/packages/b0/19/25bbc06ab3556803635a3ef2dc334eb5aa5d546083f26bc6d2d553ce2786/pycryptodome-3.17-cp27-cp27m-macosx_10_9_x86_64.whl (1.6MB)
+    100% |████████████████████████████████| 1.6MB 3.7MB/s 
+Building wheels for collected packages: empy
+  Running setup.py bdist_wheel for empy ... done
+  Stored in directory: /var/root/Library/Caches/pip/wheels/bd/e0/93/4558733f591dd47c560c86ddf8e8c81f5a0ae0493c52e4c56f
+Successfully built empy
+Installing collected packages: defusedxml, empy, pycryptodome
+Successfully installed defusedxml-0.7.1 empy-3.3.4 pycryptodome-3.17
+You are using pip version 18.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+ros-install-project@John-Pauls-MacBook-Pro ~ % sudo -H pip install -U wxPython
+Collecting wxPython
+  Downloading https://files.pythonhosted.org/packages/d9/33/b616c7ed4742be6e0d111ca375b41379607dc7cc7ac7ff6aead7a5a0bf53/wxPython-4.2.0.tar.gz (71.0MB)
+    100% |████████████████████████████████| 71.0MB 366kB/s 
+    Complete output from command python setup.py egg_info:
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/private/tmp/pip-install-G4Cou8/wxPython/setup.py", line 27, in <module>
+        from buildtools.config import Config, msg, opj, runcmd, canGetSOName, getSOName
+      File "buildtools/config.py", line 30, in <module>
+        from attrdict import AttrDict
+    ImportError: No module named attrdict
+    
+    ----------------------------------------
+Command "python setup.py egg_info" failed with error code 1 in /private/tmp/pip-install-G4Cou8/wxPython/
+You are using pip version 18.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+ros-install-project@John-Pauls-MacBook-Pro ~ % pip install attrdict                               
+Collecting attrdict
+  Downloading https://files.pythonhosted.org/packages/ef/97/28fe7e68bc7adfce67d4339756e85e9fcf3c6fd7f0c0781695352b70472c/attrdict-2.0.1-py2.py3-none-any.whl
+Requirement already satisfied: six in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from attrdict) (1.12.0)
+Installing collected packages: attrdict
+Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/Library/Python/2.7/site-packages/attrdict'
+Consider using the `--user` option or check the permissions.
+
+You are using pip version 18.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+ros-install-project@John-Pauls-MacBook-Pro ~ % sudo pip install attrdict      
+Password:
+The directory '/Users/ros-install-project/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/Users/ros-install-project/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting attrdict
+  Downloading https://files.pythonhosted.org/packages/ef/97/28fe7e68bc7adfce67d4339756e85e9fcf3c6fd7f0c0781695352b70472c/attrdict-2.0.1-py2.py3-none-any.whl
+Requirement already satisfied: six in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from attrdict) (1.12.0)
+Installing collected packages: attrdict
+Successfully installed attrdict-2.0.1
+You are using pip version 18.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+ros-install-project@John-Pauls-MacBook-Pro ~ % sudo -H pip install -U wxPython
+Collecting wxPython
+  Using cached https://files.pythonhosted.org/packages/d9/33/b616c7ed4742be6e0d111ca375b41379607dc7cc7ac7ff6aead7a5a0bf53/wxPython-4.2.0.tar.gz
+Collecting pillow (from wxPython)
+  Downloading https://files.pythonhosted.org/packages/d1/6a/41719faa7421602a85941867059f53787ac40c85c8fe9e6bb48809e3246e/Pillow-6.2.2-cp27-cp27m-macosx_10_6_intel.whl (3.9MB)
+    100% |████████████████████████████████| 3.9MB 3.0MB/s 
+Requirement already satisfied, skipping upgrade: six in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from wxPython) (1.12.0)
+Requirement already satisfied, skipping upgrade: numpy<1.17 in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from wxPython) (1.8.0rc1)
+Building wheels for collected packages: wxPython
+  Running setup.py bdist_wheel for wxPython ... error
+  Complete output from command /System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python -u -c "import setuptools, tokenize;__file__='/private/tmp/pip-install-t64368/wxPython/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /private/tmp/pip-wheel-QUWZrr --python-tag cp27:
+  running bdist_wheel
+  running build
+  WARNING: Building this way assumes that all generated files have been
+  generated already.  If that is not the case then use build.py directly
+  to generate the source and perform the build stage.  You can use
+  --skip-build with the bdist_* or install commands to avoid this
+  message and the wxWidgets and Phoenix build steps in the future.
+  
+  "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build
+    File "build.py", line 805
+      msg(f"CL.exe: {CL}")
+                        ^
+  SyntaxError: invalid syntax
+  Command '"/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build' failed with exit code 1.
+  
+  ----------------------------------------
+  Failed building wheel for wxPython
+  Running setup.py clean for wxPython
+Failed to build wxPython
+Installing collected packages: pillow, wxPython
+  Running setup.py install for wxPython ... error
+    Complete output from command /System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python -u -c "import setuptools, tokenize;__file__='/private/tmp/pip-install-t64368/wxPython/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /private/tmp/pip-record-rRXhBR/install-record.txt --single-version-externally-managed --compile:
+    running install
+    running build
+    WARNING: Building this way assumes that all generated files have been
+    generated already.  If that is not the case then use build.py directly
+    to generate the source and perform the build stage.  You can use
+    --skip-build with the bdist_* or install commands to avoid this
+    message and the wxWidgets and Phoenix build steps in the future.
+    
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build
+      File "build.py", line 805
+        msg(f"CL.exe: {CL}")
+                          ^
+    SyntaxError: invalid syntax
+    Command '"/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build' failed with exit code 1.
+    
+    ----------------------------------------
+Command "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python -u -c "import setuptools, tokenize;__file__='/private/tmp/pip-install-t64368/wxPython/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /private/tmp/pip-record-rRXhBR/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /private/tmp/pip-install-t64368/wxPython/
+You are using pip version 18.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+ros-install-project@John-Pauls-MacBook-Pro ~ % pip install -U wxPython        
+Collecting wxPython
+  Downloading https://files.pythonhosted.org/packages/d9/33/b616c7ed4742be6e0d111ca375b41379607dc7cc7ac7ff6aead7a5a0bf53/wxPython-4.2.0.tar.gz (71.0MB)
+    100% |████████████████████████████████| 71.0MB 346kB/s 
+Requirement already satisfied, skipping upgrade: pillow in /Library/Python/2.7/site-packages (from wxPython) (6.2.2)
+Requirement already satisfied, skipping upgrade: six in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from wxPython) (1.12.0)
+Requirement already satisfied, skipping upgrade: numpy<1.17 in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from wxPython) (1.8.0rc1)
+Building wheels for collected packages: wxPython
+  Running setup.py bdist_wheel for wxPython ... error
+  Complete output from command /System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python -u -c "import setuptools, tokenize;__file__='/private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-install-eqTt6E/wxPython/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-wheel-kbiz_O --python-tag cp27:
+  running bdist_wheel
+  running build
+  WARNING: Building this way assumes that all generated files have been
+  generated already.  If that is not the case then use build.py directly
+  to generate the source and perform the build stage.  You can use
+  --skip-build with the bdist_* or install commands to avoid this
+  message and the wxWidgets and Phoenix build steps in the future.
+  
+  "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build
+    File "build.py", line 805
+      msg(f"CL.exe: {CL}")
+                        ^
+  SyntaxError: invalid syntax
+  Command '"/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build' failed with exit code 1.
+  
+  ----------------------------------------
+  Failed building wheel for wxPython
+  Running setup.py clean for wxPython
+Failed to build wxPython
+Installing collected packages: wxPython
+  Running setup.py install for wxPython ... error
+    Complete output from command /System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python -u -c "import setuptools, tokenize;__file__='/private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-install-eqTt6E/wxPython/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-record-28ePqb/install-record.txt --single-version-externally-managed --compile:
+    running install
+    running build
+    WARNING: Building this way assumes that all generated files have been
+    generated already.  If that is not the case then use build.py directly
+    to generate the source and perform the build stage.  You can use
+    --skip-build with the bdist_* or install commands to avoid this
+    message and the wxWidgets and Phoenix build steps in the future.
+    
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build
+      File "build.py", line 805
+        msg(f"CL.exe: {CL}")
+                          ^
+    SyntaxError: invalid syntax
+    Command '"/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build' failed with exit code 1.
+    
+    ----------------------------------------
+Command "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python -u -c "import setuptools, tokenize;__file__='/private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-install-eqTt6E/wxPython/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-record-28ePqb/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-install-eqTt6E/wxPython/
+You are using pip version 18.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+ros-install-project@John-Pauls-MacBook-Pro ~ % python -m pip install wxPython
+Collecting wxPython
+  Using cached https://files.pythonhosted.org/packages/d9/33/b616c7ed4742be6e0d111ca375b41379607dc7cc7ac7ff6aead7a5a0bf53/wxPython-4.2.0.tar.gz
+Requirement already satisfied: pillow in /Library/Python/2.7/site-packages (from wxPython) (6.2.2)
+Requirement already satisfied: six in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from wxPython) (1.12.0)
+Requirement already satisfied: numpy<1.17 in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from wxPython) (1.8.0rc1)
+Building wheels for collected packages: wxPython
+  Running setup.py bdist_wheel for wxPython ... error
+  Complete output from command /System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python -u -c "import setuptools, tokenize;__file__='/private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-install-5X2fhv/wxPython/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-wheel-CVOjny --python-tag cp27:
+  running bdist_wheel
+  running build
+  WARNING: Building this way assumes that all generated files have been
+  generated already.  If that is not the case then use build.py directly
+  to generate the source and perform the build stage.  You can use
+  --skip-build with the bdist_* or install commands to avoid this
+  message and the wxWidgets and Phoenix build steps in the future.
+  
+  "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build
+    File "build.py", line 805
+      msg(f"CL.exe: {CL}")
+                        ^
+  SyntaxError: invalid syntax
+  Command '"/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build' failed with exit code 1.
+  
+  ----------------------------------------
+  Failed building wheel for wxPython
+  Running setup.py clean for wxPython
+Failed to build wxPython
+Installing collected packages: wxPython
+  Running setup.py install for wxPython ... error
+    Complete output from command /System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python -u -c "import setuptools, tokenize;__file__='/private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-install-5X2fhv/wxPython/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-record-Qyhz3_/install-record.txt --single-version-externally-managed --compile:
+    running install
+    running build
+    WARNING: Building this way assumes that all generated files have been
+    generated already.  If that is not the case then use build.py directly
+    to generate the source and perform the build stage.  You can use
+    --skip-build with the bdist_* or install commands to avoid this
+    message and the wxWidgets and Phoenix build steps in the future.
+    
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build
+      File "build.py", line 805
+        msg(f"CL.exe: {CL}")
+                          ^
+    SyntaxError: invalid syntax
+    Command '"/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build' failed with exit code 1.
+    
+    ----------------------------------------
+Command "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python -u -c "import setuptools, tokenize;__file__='/private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-install-5X2fhv/wxPython/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-record-Qyhz3_/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-install-5X2fhv/wxPython/
+You are using pip version 18.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+ros-install-project@John-Pauls-MacBook-Pro ~ % pip install wxPython --user   
+Collecting wxPython
+  Using cached https://files.pythonhosted.org/packages/d9/33/b616c7ed4742be6e0d111ca375b41379607dc7cc7ac7ff6aead7a5a0bf53/wxPython-4.2.0.tar.gz
+Requirement already satisfied: pillow in /Library/Python/2.7/site-packages (from wxPython) (6.2.2)
+Requirement already satisfied: six in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from wxPython) (1.12.0)
+Requirement already satisfied: numpy<1.17 in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from wxPython) (1.8.0rc1)
+Building wheels for collected packages: wxPython
+  Running setup.py bdist_wheel for wxPython ... error
+  Complete output from command /System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python -u -c "import setuptools, tokenize;__file__='/private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-install-un4Efe/wxPython/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-wheel-5FzKKz --python-tag cp27:
+  running bdist_wheel
+  running build
+  WARNING: Building this way assumes that all generated files have been
+  generated already.  If that is not the case then use build.py directly
+  to generate the source and perform the build stage.  You can use
+  --skip-build with the bdist_* or install commands to avoid this
+  message and the wxWidgets and Phoenix build steps in the future.
+  
+  "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build
+    File "build.py", line 805
+      msg(f"CL.exe: {CL}")
+                        ^
+  SyntaxError: invalid syntax
+  Command '"/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build' failed with exit code 1.
+  
+  ----------------------------------------
+  Failed building wheel for wxPython
+  Running setup.py clean for wxPython
+Failed to build wxPython
+Installing collected packages: wxPython
+  Running setup.py install for wxPython ... error
+    Complete output from command /System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python -u -c "import setuptools, tokenize;__file__='/private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-install-un4Efe/wxPython/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-record-BCZKs2/install-record.txt --single-version-externally-managed --compile --user --prefix=:
+    running install
+    running build
+    WARNING: Building this way assumes that all generated files have been
+    generated already.  If that is not the case then use build.py directly
+    to generate the source and perform the build stage.  You can use
+    --skip-build with the bdist_* or install commands to avoid this
+    message and the wxWidgets and Phoenix build steps in the future.
+    
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build
+      File "build.py", line 805
+        msg(f"CL.exe: {CL}")
+                          ^
+    SyntaxError: invalid syntax
+    Command '"/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build' failed with exit code 1.
+    
+    ----------------------------------------
+Command "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python -u -c "import setuptools, tokenize;__file__='/private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-install-un4Efe/wxPython/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-record-BCZKs2/install-record.txt --single-version-externally-managed --compile --user --prefix=" failed with error code 1 in /private/var/folders/29/44hyhq1518sbd5g3ldxz1htc0000gq/T/pip-install-un4Efe/wxPython/
+You are using pip version 18.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+ros-install-project@John-Pauls-MacBook-Pro ~ % pip install --upgrade pip
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/27/79/8a850fe3496446ff0d584327ae44e7500daf6764ca1a382d2d02789accf7/pip-20.3.4-py2.py3-none-any.whl (1.5MB)
+    100% |████████████████████████████████| 1.5MB 6.5MB/s 
+Installing collected packages: pip
+  Found existing installation: pip 18.1
+    Uninstalling pip-18.1:
+Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/Library/Python/2.7/site-packages/pip-18.1.dist-info/INSTALLER'
+Consider using the `--user` option or check the permissions.
+
+You are using pip version 18.1, however version 20.3.4 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+ros-install-project@John-Pauls-MacBook-Pro ~ % sudo pip install --upgrade pip
+Password:
+The directory '/Users/ros-install-project/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/Users/ros-install-project/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/27/79/8a850fe3496446ff0d584327ae44e7500daf6764ca1a382d2d02789accf7/pip-20.3.4-py2.py3-none-any.whl (1.5MB)
+    100% |████████████████████████████████| 1.5MB 11.5MB/s 
+Installing collected packages: pip
+  Found existing installation: pip 18.1
+    Uninstalling pip-18.1:
+      Successfully uninstalled pip-18.1
+Successfully installed pip-20.3.4
+ros-install-project@John-Pauls-MacBook-Pro ~ % sudo -H pip install -U wxPython
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+Collecting wxPython
+  Using cached wxPython-4.2.0.tar.gz (71.0 MB)
+Requirement already satisfied, skipping upgrade: pillow in /Library/Python/2.7/site-packages (from wxPython) (6.2.2)
+Requirement already satisfied, skipping upgrade: six in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from wxPython) (1.12.0)
+Requirement already satisfied, skipping upgrade: numpy<1.17 in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from wxPython) (1.8.0rc1)
+Building wheels for collected packages: wxPython
+  Building wheel for wxPython (setup.py) ... error
+  ERROR: Command errored out with exit status 1:
+   command: /System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/tmp/pip-install-WJZQxW/wxpython/setup.py'"'"'; __file__='"'"'/private/tmp/pip-install-WJZQxW/wxpython/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /private/tmp/pip-wheel-cAtWnp
+       cwd: /private/tmp/pip-install-WJZQxW/wxpython/
+  Complete output (14 lines):
+  running bdist_wheel
+  running build
+  WARNING: Building this way assumes that all generated files have been
+  generated already.  If that is not the case then use build.py directly
+  to generate the source and perform the build stage.  You can use
+  --skip-build with the bdist_* or install commands to avoid this
+  message and the wxWidgets and Phoenix build steps in the future.
+  
+  "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build
+    File "build.py", line 805
+      msg(f"CL.exe: {CL}")
+                        ^
+  SyntaxError: invalid syntax
+  Command '"/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build' failed with exit code 1.
+  ----------------------------------------
+  ERROR: Failed building wheel for wxPython
+  Running setup.py clean for wxPython
+Failed to build wxPython
+Installing collected packages: wxPython
+    Running setup.py install for wxPython ... error
+    ERROR: Command errored out with exit status 1:
+     command: /System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/tmp/pip-install-WJZQxW/wxpython/setup.py'"'"'; __file__='"'"'/private/tmp/pip-install-WJZQxW/wxpython/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/tmp/pip-record-7z2e7B/install-record.txt --single-version-externally-managed --compile --install-headers /System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/wxPython
+         cwd: /private/tmp/pip-install-WJZQxW/wxpython/
+    Complete output (14 lines):
+    running install
+    running build
+    WARNING: Building this way assumes that all generated files have been
+    generated already.  If that is not the case then use build.py directly
+    to generate the source and perform the build stage.  You can use
+    --skip-build with the bdist_* or install commands to avoid this
+    message and the wxWidgets and Phoenix build steps in the future.
+    
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build
+      File "build.py", line 805
+        msg(f"CL.exe: {CL}")
+                          ^
+    SyntaxError: invalid syntax
+    Command '"/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python" -u build.py build' failed with exit code 1.
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: /System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/tmp/pip-install-WJZQxW/wxpython/setup.py'"'"'; __file__='"'"'/private/tmp/pip-install-WJZQxW/wxpython/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/tmp/pip-record-7z2e7B/install-record.txt --single-version-externally-managed --compile --install-headers /System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7/wxPython Check the logs for full command output.
+ros-install-project@John-Pauls-MacBook-Pro ~ % pip
+
+Usage:   
+  pip <command> [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  cache                       Inspect and manage pip's wheel cache.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  debug                       Show information useful for debugging.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --isolated                  Run pip in an isolated mode, ignoring environment variables and user configuration.
+  -v, --verbose               Give more output. Option is additive, and can be used up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is additive, and can be used up to 3 times (corresponding to WARNING, ERROR, and CRITICAL logging levels).
+  --log <path>                Path to a verbose appending log.
+  --no-input                  Disable prompting for input.
+  --proxy <proxy>             Specify a proxy in the form [user:passwd@]proxy.server:port.
+  --retries <retries>         Maximum number of retries each connection should attempt (default 5 times).
+  --timeout <sec>             Set the socket timeout (default 15 seconds).
+  --exists-action <action>    Default action when a path already exists: (s)witch, (i)gnore, (w)ipe, (b)ackup, (a)bort.
+  --trusted-host <hostname>   Mark this host or host:port pair as trusted, even though it does not have valid or any HTTPS.
+  --cert <path>               Path to alternate CA bundle.
+  --client-cert <path>        Path to SSL client certificate, a single file containing the private key and the certificate in PEM format.
+  --cache-dir <dir>           Store the cache data in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check PyPI to determine whether a new version of pip is available for download. Implied with --no-index.
+  --no-color                  Suppress colored output.
+  --no-python-version-warning
+                              Silence deprecation warnings for upcoming unsupported Pythons.
+  --use-feature <feature>     Enable new functionality, that may be backward incompatible.
+  --use-deprecated <feature>  Enable deprecated functionality, that will be removed in the future.
+ros-install-project@John-Pauls-MacBook-Pro ~ % pip -V
+pip 20.3.4 from /Library/Python/2.7/site-packages/pip (python 2.7)
+ros-install-project@John-Pauls-MacBook-Pro ~ % sudo python3 -m pip install wxPython==4.0.1
+Password:
+WARNING: The directory '/Users/ros-install-project/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting wxPython==4.0.1
+  Downloading wxPython-4.0.1.tar.gz (67.9 MB)
+     |████████████████████████████████| 67.9 MB 20.3 MB/s 
+Requirement already satisfied: six in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/site-packages (from wxPython==4.0.1) (1.15.0)
+Building wheels for collected packages: wxPython
+  Building wheel for wxPython (setup.py) ... error
+  ERROR: Command errored out with exit status 1:
+   command: /Library/Developer/CommandLineTools/usr/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/tmp/pip-install-fzw55eql/wxpython/setup.py'"'"'; __file__='"'"'/private/tmp/pip-install-fzw55eql/wxpython/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /private/tmp/pip-wheel-0u2iuvpz
+       cwd: /private/tmp/pip-install-fzw55eql/wxpython/
+  Complete output (331 lines):
+  running bdist_wheel
+  running build
+  WARNING: Building this way assumes that all generated files have been
+  generated already.  If that is not the case then use build.py directly
+  to generate the source and perform the build stage.  You can use
+  --skip-build with the bdist_* or install commands to avoid this
+  message and the wxWidgets and Phoenix build steps in the future.
+  
+  "/Library/Developer/CommandLineTools/usr/bin/python3" -u build.py build
+  Will build using: "/Library/Developer/CommandLineTools/usr/bin/python3"
+  3.8.9 (default, Oct 26 2021, 07:25:54)
+  [Clang 13.0.0 (clang-1300.0.29.30)]
+  Python's architecture is 64bit
+  cfg.VERSION: 4.0.1
+  
+  Running command: build
+  Running command: build_wx
+  wxWidgets build options: ['--wxpython', '--unicode', '--osx_cocoa']
+  Configure options: ['--enable-unicode', '--with-osx_cocoa', '--with-opengl', '--enable-sound', '--enable-graphics_ctx', '--enable-mediactrl', '--enable-display', '--enable-geometry', '--enable-debug_flag', '--enable-optimise', '--disable-debugreport', '--enable-uiactionsim', '--with-macosx-version-min=10.6']
+  /private/tmp/pip-install-fzw55eql/wxpython/ext/wxWidgets/configure --enable-unicode --with-osx_cocoa --with-opengl --enable-sound --enable-graphics_ctx --enable-mediactrl --enable-display --enable-geometry --enable-debug_flag --enable-optimise --disable-debugreport --enable-uiactionsim --with-macosx-version-min=10.6
+  checking build system type... x86_64-apple-darwin20.6.0
+  checking host system type... x86_64-apple-darwin20.6.0
+  checking for --disable-gui... no
+  checking for --enable-monolithic... no
+  checking for --enable-plugins... no
+  checking for --without-subdirs... no
+  checking for --enable-official_build... no
+  checking for --disable-all-features... no
+  checking for --enable-universal... no
+  checking for --enable-nanox... no
+  checking for --enable-gpe... no
+  checking for toolkit... osx_cocoa
+  checking for --with-libpng... yes
+  checking for --with-libjpeg... yes
+  checking for --with-libtiff... yes
+  checking for --without-libjbig... no
+  checking for --without-liblzma... no
+  checking for --with-libxpm... yes
+  checking for --with-libiconv... yes
+  checking for --with-libmspack... no
+  checking for --without-gtkprint... no
+  checking for --with-gnomevfs... no
+  checking for --with-libnotify... yes
+  checking for --with-hildon... no
+  checking for --with-opengl... yes
+  checking for --with-dmalloc... no
+  checking for --with-sdl... no
+  checking for --with-regex... yes
+  checking for --with-zlib... yes
+  checking for --with-expat... yes
+  checking for --with-macosx-sdk...
+  checking for --with-macosx-version-min... 10.6
+  checking for --enable-debug... default
+  checking for --disable-debug_flag... no
+  checking for --enable-debug_info... no
+  checking for --enable-debug_gdb... no
+  checking for --enable-debug_cntxt... no
+  checking for --enable-mem_tracing... no
+  checking for --disable-shared... no
+  checking for --enable-stl... no
+  checking for --enable-std_containers... no
+  checking for --enable-std_iostreams... yes
+  checking for --enable-std_string... yes
+  checking for --enable-std_string_conv_in_wxstring... no
+  checking for --disable-unicode... no
+  checking for --enable-mslu... no
+  checking for --enable-utf8... no
+  checking for --enable-utf8only... no
+  checking for --enable-extended_rtti... no
+  checking for --disable-optimise... no
+  checking for --enable-profile... no
+  checking for --enable-no_rtti... no
+  checking for --enable-no_exceptions... no
+  checking for --enable-permissive... no
+  checking for --enable-no_deps... no
+  checking for --disable-vararg_macros... no
+  checking for --enable-universal_binary... no
+  checking for --enable-macosx_arch... no
+  checking for --enable-compat26... no
+  checking for --disable-compat28... no
+  checking for --disable-rpath... no
+  checking for --enable-objc_uniquifying... no
+  checking for --disable-visibility... no
+  checking for --disable-tls... no
+  checking for --enable-intl... yes
+  checking for --enable-xlocale... yes
+  checking for --enable-config... yes
+  checking for --enable-protocols... yes
+  checking for --enable-ftp... yes
+  checking for --enable-http... yes
+  checking for --enable-fileproto... yes
+  checking for --enable-sockets... yes
+  checking for --enable-ipv6... no
+  checking for --enable-ole... yes
+  checking for --enable-dataobj... yes
+  checking for --enable-ipc... yes
+  checking for --enable-baseevtloop... yes
+  checking for --enable-epollloop... yes
+  checking for --enable-selectloop... yes
+  checking for --enable-any... yes
+  checking for --enable-apple_ieee... yes
+  checking for --enable-arcstream... yes
+  checking for --enable-base64... yes
+  checking for --enable-backtrace... yes
+  checking for --enable-catch_segvs... yes
+  checking for --enable-cmdline... yes
+  checking for --enable-datetime... yes
+  checking for --enable-debugreport... no
+  checking for --enable-dialupman... yes
+  checking for --enable-dynlib... yes
+  checking for --enable-dynamicloader... yes
+  checking for --enable-exceptions... yes
+  checking for --enable-ffile... yes
+  checking for --enable-file... yes
+  checking for --enable-filehistory... yes
+  checking for --enable-filesystem... yes
+  checking for --enable-fontenum... yes
+  checking for --enable-fontmap... yes
+  checking for --enable-fs_archive... yes
+  checking for --enable-fs_inet... yes
+  checking for --enable-fs_zip... yes
+  checking for --enable-fsvolume... yes
+  checking for --enable-fswatcher... yes
+  checking for --enable-geometry... yes
+  checking for --enable-log... yes
+  checking for --enable-longlong... yes
+  checking for --enable-mimetype... yes
+  checking for --enable-printfposparam... yes
+  checking for --enable-snglinst... yes
+  checking for --enable-sound... yes
+  checking for --enable-stdpaths... yes
+  checking for --enable-stopwatch... yes
+  checking for --enable-streams... yes
+  checking for --enable-sysoptions... yes
+  checking for --enable-tarstream... yes
+  checking for --enable-textbuf... yes
+  checking for --enable-textfile... yes
+  checking for --enable-timer... yes
+  checking for --enable-variant... yes
+  checking for --enable-zipstream... yes
+  checking for --enable-url... yes
+  checking for --enable-protocol... yes
+  checking for --enable-protocol_http... yes
+  checking for --enable-protocol_ftp... yes
+  checking for --enable-protocol_file... yes
+  checking for --enable-threads... yes
+  checking for --enable-iniconf... no
+  checking for --enable-regkey... yes
+  checking for --enable-docview... yes
+  checking for --enable-help... yes
+  checking for --enable-mshtmlhelp... yes
+  checking for --enable-html... yes
+  checking for --enable-htmlhelp... yes
+  checking for --enable-xrc... yes
+  checking for --enable-aui... yes
+  checking for --enable-propgrid... yes
+  checking for --enable-ribbon... yes
+  checking for --enable-stc... yes
+  checking for --enable-constraints... yes
+  checking for --enable-loggui... yes
+  checking for --enable-logwin... yes
+  checking for --enable-logdialog... yes
+  checking for --enable-mdi... yes
+  checking for --enable-mdidoc... yes
+  checking for --enable-mediactrl... yes
+  checking for --enable-gstreamer8... no
+  checking for --enable-richtext... yes
+  checking for --enable-postscript... yes
+  checking for --enable-printarch... yes
+  checking for --enable-svg... yes
+  checking for --enable-webkit... yes
+  checking for --enable-webview... yes
+  checking for --disable-qtkit... no
+  checking for --enable-clipboard... yes
+  checking for --enable-dnd... yes
+  checking for --disable-controls... no
+  checking for --enable-markup... yes
+  checking for --enable-accel... yes
+  checking for --enable-animatectrl... yes
+  checking for --enable-bannerwindow... yes
+  checking for --enable-artstd... yes
+  checking for --enable-arttango... auto
+  checking for --enable-bmpbutton... yes
+  checking for --enable-bmpcombobox... yes
+  checking for --enable-button... yes
+  checking for --enable-calendar... yes
+  checking for --enable-caret... yes
+  checking for --enable-checkbox... yes
+  checking for --enable-checklst... yes
+  checking for --enable-choice... yes
+  checking for --enable-choicebook... yes
+  checking for --enable-collpane... yes
+  checking for --enable-colourpicker... yes
+  checking for --enable-combobox... yes
+  checking for --enable-comboctrl... yes
+  checking for --enable-commandlinkbutton... yes
+  checking for --enable-dataviewctrl... yes
+  checking for --enable-datepick... yes
+  checking for --enable-detect_sm... yes
+  checking for --enable-dirpicker... yes
+  checking for --enable-display... yes
+  checking for --enable-editablebox... yes
+  checking for --enable-filectrl... yes
+  checking for --enable-filepicker... yes
+  checking for --enable-fontpicker... yes
+  checking for --enable-gauge... yes
+  checking for --enable-grid... yes
+  checking for --enable-headerctrl... yes
+  checking for --enable-hyperlink... yes
+  checking for --enable-imaglist... yes
+  checking for --enable-infobar... yes
+  checking for --enable-listbook... yes
+  checking for --enable-listbox... yes
+  checking for --enable-listctrl... yes
+  checking for --enable-notebook... yes
+  checking for --enable-notifmsg... yes
+  checking for --enable-odcombobox... yes
+  checking for --enable-popupwin... yes
+  checking for --enable-prefseditor... yes
+  checking for --enable-radiobox... yes
+  checking for --enable-radiobtn... yes
+  checking for --enable-richmsgdlg... yes
+  checking for --enable-richtooltip... yes
+  checking for --enable-rearrangectrl... yes
+  checking for --enable-sash... yes
+  checking for --enable-scrollbar... yes
+  checking for --enable-searchctrl... yes
+  checking for --enable-slider... yes
+  checking for --enable-spinbtn... yes
+  checking for --enable-spinctrl... yes
+  checking for --enable-splitter... yes
+  checking for --enable-statbmp... yes
+  checking for --enable-statbox... yes
+  checking for --enable-statline... yes
+  checking for --enable-stattext... yes
+  checking for --enable-statusbar... yes
+  checking for --enable-taskbaricon... yes
+  checking for --enable-tbarnative... yes
+  checking for --enable-textctrl... yes
+  checking for --enable-datepick... yes
+  checking for --enable-tipwindow... yes
+  checking for --enable-togglebtn... yes
+  checking for --enable-toolbar... yes
+  checking for --enable-toolbook... yes
+  checking for --enable-treebook... yes
+  checking for --enable-treectrl... yes
+  checking for --enable-treelist... yes
+  checking for --enable-commondlg... yes
+  checking for --enable-aboutdlg... yes
+  checking for --enable-choicedlg... yes
+  checking for --enable-coldlg... yes
+  checking for --enable-filedlg... yes
+  checking for --enable-finddlg... yes
+  checking for --enable-fontdlg... yes
+  checking for --enable-dirdlg... yes
+  checking for --enable-msgdlg... yes
+  checking for --enable-numberdlg... yes
+  checking for --enable-splash... yes
+  checking for --enable-textdlg... yes
+  checking for --enable-tipdlg... yes
+  checking for --enable-progressdlg... yes
+  checking for --enable-wizarddlg... yes
+  checking for --enable-menus... yes
+  checking for --enable-miniframe... yes
+  checking for --enable-tooltips... yes
+  checking for --enable-splines... yes
+  checking for --enable-mousewheel... yes
+  checking for --enable-validators... yes
+  checking for --enable-busyinfo... yes
+  checking for --enable-hotkey... auto
+  checking for --enable-joystick... yes
+  checking for --enable-metafile... auto
+  checking for --enable-dragimage... yes
+  checking for --enable-accessibility... no
+  checking for --enable-uiactionsim... yes
+  checking for --enable-dctransform... yes
+  checking for --enable-webviewwebkit... yes
+  checking for --enable-palette... yes
+  checking for --enable-image... yes
+  checking for --enable-gif... yes
+  checking for --enable-pcx... yes
+  checking for --enable-tga... yes
+  checking for --enable-iff... yes
+  checking for --enable-pnm... yes
+  checking for --enable-xpm... yes
+  checking for --enable-ico_cur... yes
+  checking for --enable-dccache... yes
+  checking for --enable-ps-in-msw... yes
+  checking for --enable-ownerdrawn... yes
+  checking for --enable-uxtheme... yes
+  checking for --enable-wxdib... yes
+  checking for --enable-webviewie... yes
+  checking for --enable-autoidman... no
+  checking for gcc... gcc
+  checking whether the C compiler works... yes
+  checking for C compiler default output file name... a.out
+  checking for suffix of executables...
+  checking whether we are cross compiling... no
+  checking for suffix of object files... o
+  checking whether we are using the GNU C compiler... yes
+  checking whether gcc accepts -g... yes
+  checking for gcc option to accept ISO C89... none needed
+  checking whether we are using the Intel C compiler... no
+  checking how to run the C preprocessor... gcc -E
+  checking for grep that handles long lines and -e... /usr/bin/grep
+  checking for egrep... /usr/bin/grep -E
+  checking whether gcc needs -traditional... no
+  checking for g++... g++
+  checking whether we are using the GNU C++ compiler... yes
+  checking whether g++ accepts -g... yes
+  checking whether we are using the Intel C++ compiler... no
+  checking whether we are using the Metrowerks C++ compiler... no
+  checking whether we are using the IBM xlC C++ compiler... no
+  checking for ar... ar
+  checking if C compiler (gcc -mmacosx-version-min=10.6) works with SDK/version options... yes
+  checking if C++ compiler (g++ -mmacosx-version-min=10.6) works with SDK/version options... configure: error: in `/private/tmp/pip-install-fzw55eql/wxpython/build/wxbld':
+  configure: error: no.  Try a different SDK
+  See `config.log' for more details
+  Error running configure
+  ERROR: failed building wxWidgets
+  Traceback (most recent call last):
+    File "build.py", line 1295, in cmd_build_wx
+      wxbuild.main(wxDir(), build_options)
+    File "/private/tmp/pip-install-fzw55eql/wxpython/buildtools/build_wxwidgets.py", line 373, in main
+      exitIfError(wxBuilder.configure(dir=wxRootDir, options=configure_opts),
+    File "/private/tmp/pip-install-fzw55eql/wxpython/buildtools/build_wxwidgets.py", line 85, in exitIfError
+      raise builder.BuildError(msg)
+  buildtools.builder.BuildError: Error running configure
+  Finished command: build_wx (0m3.3s)
+  Finished command: build (0m3.3s)
+  Command '"/Library/Developer/CommandLineTools/usr/bin/python3" -u build.py build' failed with exit code 1.
+  ----------------------------------------
+  ERROR: Failed building wheel for wxPython
+  Running setup.py clean for wxPython
+Failed to build wxPython
+Installing collected packages: wxPython
+    Running setup.py install for wxPython ... error
+    ERROR: Command errored out with exit status 1:
+     command: /Library/Developer/CommandLineTools/usr/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/tmp/pip-install-fzw55eql/wxpython/setup.py'"'"'; __file__='"'"'/private/tmp/pip-install-fzw55eql/wxpython/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/tmp/pip-record-hajengd1/install-record.txt --single-version-externally-managed --compile --install-headers /Library/Python/3.8/include/wxPython
+         cwd: /private/tmp/pip-install-fzw55eql/wxpython/
+    Complete output (331 lines):
+    running install
+    running build
+    WARNING: Building this way assumes that all generated files have been
+    generated already.  If that is not the case then use build.py directly
+    to generate the source and perform the build stage.  You can use
+    --skip-build with the bdist_* or install commands to avoid this
+    message and the wxWidgets and Phoenix build steps in the future.
+    
+    "/Library/Developer/CommandLineTools/usr/bin/python3" -u build.py build
+    Will build using: "/Library/Developer/CommandLineTools/usr/bin/python3"
+    3.8.9 (default, Oct 26 2021, 07:25:54)
+    [Clang 13.0.0 (clang-1300.0.29.30)]
+    Python's architecture is 64bit
+    cfg.VERSION: 4.0.1
+    
+    Running command: build
+    Running command: build_wx
+    wxWidgets build options: ['--wxpython', '--unicode', '--osx_cocoa']
+    Configure options: ['--enable-unicode', '--with-osx_cocoa', '--with-opengl', '--enable-sound', '--enable-graphics_ctx', '--enable-mediactrl', '--enable-display', '--enable-geometry', '--enable-debug_flag', '--enable-optimise', '--disable-debugreport', '--enable-uiactionsim', '--with-macosx-version-min=10.6']
+    /private/tmp/pip-install-fzw55eql/wxpython/ext/wxWidgets/configure --enable-unicode --with-osx_cocoa --with-opengl --enable-sound --enable-graphics_ctx --enable-mediactrl --enable-display --enable-geometry --enable-debug_flag --enable-optimise --disable-debugreport --enable-uiactionsim --with-macosx-version-min=10.6
+    checking build system type... x86_64-apple-darwin20.6.0
+    checking host system type... x86_64-apple-darwin20.6.0
+    checking for --disable-gui... no
+    checking for --enable-monolithic... no
+    checking for --enable-plugins... no
+    checking for --without-subdirs... no
+    checking for --enable-official_build... no
+    checking for --disable-all-features... no
+    checking for --enable-universal... no
+    checking for --enable-nanox... no
+    checking for --enable-gpe... no
+    checking for toolkit... osx_cocoa
+    checking for --with-libpng... yes
+    checking for --with-libjpeg... yes
+    checking for --with-libtiff... yes
+    checking for --without-libjbig... no
+    checking for --without-liblzma... no
+    checking for --with-libxpm... yes
+    checking for --with-libiconv... yes
+    checking for --with-libmspack... no
+    checking for --without-gtkprint... no
+    checking for --with-gnomevfs... no
+    checking for --with-libnotify... yes
+    checking for --with-hildon... no
+    checking for --with-opengl... yes
+    checking for --with-dmalloc... no
+    checking for --with-sdl... no
+    checking for --with-regex... yes
+    checking for --with-zlib... yes
+    checking for --with-expat... yes
+    checking for --with-macosx-sdk...
+    checking for --with-macosx-version-min... 10.6
+    checking for --enable-debug... default
+    checking for --disable-debug_flag... no
+    checking for --enable-debug_info... no
+    checking for --enable-debug_gdb... no
+    checking for --enable-debug_cntxt... no
+    checking for --enable-mem_tracing... no
+    checking for --disable-shared... no
+    checking for --enable-stl... no
+    checking for --enable-std_containers... no
+    checking for --enable-std_iostreams... yes
+    checking for --enable-std_string... yes
+    checking for --enable-std_string_conv_in_wxstring... no
+    checking for --disable-unicode... no
+    checking for --enable-mslu... no
+    checking for --enable-utf8... no
+    checking for --enable-utf8only... no
+    checking for --enable-extended_rtti... no
+    checking for --disable-optimise... no
+    checking for --enable-profile... no
+    checking for --enable-no_rtti... no
+    checking for --enable-no_exceptions... no
+    checking for --enable-permissive... no
+    checking for --enable-no_deps... no
+    checking for --disable-vararg_macros... no
+    checking for --enable-universal_binary... no
+    checking for --enable-macosx_arch... no
+    checking for --enable-compat26... no
+    checking for --disable-compat28... no
+    checking for --disable-rpath... no
+    checking for --enable-objc_uniquifying... no
+    checking for --disable-visibility... no
+    checking for --disable-tls... no
+    checking for --enable-intl... yes
+    checking for --enable-xlocale... yes
+    checking for --enable-config... yes
+    checking for --enable-protocols... yes
+    checking for --enable-ftp... yes
+    checking for --enable-http... yes
+    checking for --enable-fileproto... yes
+    checking for --enable-sockets... yes
+    checking for --enable-ipv6... no
+    checking for --enable-ole... yes
+    checking for --enable-dataobj... yes
+    checking for --enable-ipc... yes
+    checking for --enable-baseevtloop... yes
+    checking for --enable-epollloop... yes
+    checking for --enable-selectloop... yes
+    checking for --enable-any... yes
+    checking for --enable-apple_ieee... yes
+    checking for --enable-arcstream... yes
+    checking for --enable-base64... yes
+    checking for --enable-backtrace... yes
+    checking for --enable-catch_segvs... yes
+    checking for --enable-cmdline... yes
+    checking for --enable-datetime... yes
+    checking for --enable-debugreport... no
+    checking for --enable-dialupman... yes
+    checking for --enable-dynlib... yes
+    checking for --enable-dynamicloader... yes
+    checking for --enable-exceptions... yes
+    checking for --enable-ffile... yes
+    checking for --enable-file... yes
+    checking for --enable-filehistory... yes
+    checking for --enable-filesystem... yes
+    checking for --enable-fontenum... yes
+    checking for --enable-fontmap... yes
+    checking for --enable-fs_archive... yes
+    checking for --enable-fs_inet... yes
+    checking for --enable-fs_zip... yes
+    checking for --enable-fsvolume... yes
+    checking for --enable-fswatcher... yes
+    checking for --enable-geometry... yes
+    checking for --enable-log... yes
+    checking for --enable-longlong... yes
+    checking for --enable-mimetype... yes
+    checking for --enable-printfposparam... yes
+    checking for --enable-snglinst... yes
+    checking for --enable-sound... yes
+    checking for --enable-stdpaths... yes
+    checking for --enable-stopwatch... yes
+    checking for --enable-streams... yes
+    checking for --enable-sysoptions... yes
+    checking for --enable-tarstream... yes
+    checking for --enable-textbuf... yes
+    checking for --enable-textfile... yes
+    checking for --enable-timer... yes
+    checking for --enable-variant... yes
+    checking for --enable-zipstream... yes
+    checking for --enable-url... yes
+    checking for --enable-protocol... yes
+    checking for --enable-protocol_http... yes
+    checking for --enable-protocol_ftp... yes
+    checking for --enable-protocol_file... yes
+    checking for --enable-threads... yes
+    checking for --enable-iniconf... no
+    checking for --enable-regkey... yes
+    checking for --enable-docview... yes
+    checking for --enable-help... yes
+    checking for --enable-mshtmlhelp... yes
+    checking for --enable-html... yes
+    checking for --enable-htmlhelp... yes
+    checking for --enable-xrc... yes
+    checking for --enable-aui... yes
+    checking for --enable-propgrid... yes
+    checking for --enable-ribbon... yes
+    checking for --enable-stc... yes
+    checking for --enable-constraints... yes
+    checking for --enable-loggui... yes
+    checking for --enable-logwin... yes
+    checking for --enable-logdialog... yes
+    checking for --enable-mdi... yes
+    checking for --enable-mdidoc... yes
+    checking for --enable-mediactrl... yes
+    checking for --enable-gstreamer8... no
+    checking for --enable-richtext... yes
+    checking for --enable-postscript... yes
+    checking for --enable-printarch... yes
+    checking for --enable-svg... yes
+    checking for --enable-webkit... yes
+    checking for --enable-webview... yes
+    checking for --disable-qtkit... no
+    checking for --enable-clipboard... yes
+    checking for --enable-dnd... yes
+    checking for --disable-controls... no
+    checking for --enable-markup... yes
+    checking for --enable-accel... yes
+    checking for --enable-animatectrl... yes
+    checking for --enable-bannerwindow... yes
+    checking for --enable-artstd... yes
+    checking for --enable-arttango... auto
+    checking for --enable-bmpbutton... yes
+    checking for --enable-bmpcombobox... yes
+    checking for --enable-button... yes
+    checking for --enable-calendar... yes
+    checking for --enable-caret... yes
+    checking for --enable-checkbox... yes
+    checking for --enable-checklst... yes
+    checking for --enable-choice... yes
+    checking for --enable-choicebook... yes
+    checking for --enable-collpane... yes
+    checking for --enable-colourpicker... yes
+    checking for --enable-combobox... yes
+    checking for --enable-comboctrl... yes
+    checking for --enable-commandlinkbutton... yes
+    checking for --enable-dataviewctrl... yes
+    checking for --enable-datepick... yes
+    checking for --enable-detect_sm... yes
+    checking for --enable-dirpicker... yes
+    checking for --enable-display... yes
+    checking for --enable-editablebox... yes
+    checking for --enable-filectrl... yes
+    checking for --enable-filepicker... yes
+    checking for --enable-fontpicker... yes
+    checking for --enable-gauge... yes
+    checking for --enable-grid... yes
+    checking for --enable-headerctrl... yes
+    checking for --enable-hyperlink... yes
+    checking for --enable-imaglist... yes
+    checking for --enable-infobar... yes
+    checking for --enable-listbook... yes
+    checking for --enable-listbox... yes
+    checking for --enable-listctrl... yes
+    checking for --enable-notebook... yes
+    checking for --enable-notifmsg... yes
+    checking for --enable-odcombobox... yes
+    checking for --enable-popupwin... yes
+    checking for --enable-prefseditor... yes
+    checking for --enable-radiobox... yes
+    checking for --enable-radiobtn... yes
+    checking for --enable-richmsgdlg... yes
+    checking for --enable-richtooltip... yes
+    checking for --enable-rearrangectrl... yes
+    checking for --enable-sash... yes
+    checking for --enable-scrollbar... yes
+    checking for --enable-searchctrl... yes
+    checking for --enable-slider... yes
+    checking for --enable-spinbtn... yes
+    checking for --enable-spinctrl... yes
+    checking for --enable-splitter... yes
+    checking for --enable-statbmp... yes
+    checking for --enable-statbox... yes
+    checking for --enable-statline... yes
+    checking for --enable-stattext... yes
+    checking for --enable-statusbar... yes
+    checking for --enable-taskbaricon... yes
+    checking for --enable-tbarnative... yes
+    checking for --enable-textctrl... yes
+    checking for --enable-datepick... yes
+    checking for --enable-tipwindow... yes
+    checking for --enable-togglebtn... yes
+    checking for --enable-toolbar... yes
+    checking for --enable-toolbook... yes
+    checking for --enable-treebook... yes
+    checking for --enable-treectrl... yes
+    checking for --enable-treelist... yes
+    checking for --enable-commondlg... yes
+    checking for --enable-aboutdlg... yes
+    checking for --enable-choicedlg... yes
+    checking for --enable-coldlg... yes
+    checking for --enable-filedlg... yes
+    checking for --enable-finddlg... yes
+    checking for --enable-fontdlg... yes
+    checking for --enable-dirdlg... yes
+    checking for --enable-msgdlg... yes
+    checking for --enable-numberdlg... yes
+    checking for --enable-splash... yes
+    checking for --enable-textdlg... yes
+    checking for --enable-tipdlg... yes
+    checking for --enable-progressdlg... yes
+    checking for --enable-wizarddlg... yes
+    checking for --enable-menus... yes
+    checking for --enable-miniframe... yes
+    checking for --enable-tooltips... yes
+    checking for --enable-splines... yes
+    checking for --enable-mousewheel... yes
+    checking for --enable-validators... yes
+    checking for --enable-busyinfo... yes
+    checking for --enable-hotkey... auto
+    checking for --enable-joystick... yes
+    checking for --enable-metafile... auto
+    checking for --enable-dragimage... yes
+    checking for --enable-accessibility... no
+    checking for --enable-uiactionsim... yes
+    checking for --enable-dctransform... yes
+    checking for --enable-webviewwebkit... yes
+    checking for --enable-palette... yes
+    checking for --enable-image... yes
+    checking for --enable-gif... yes
+    checking for --enable-pcx... yes
+    checking for --enable-tga... yes
+    checking for --enable-iff... yes
+    checking for --enable-pnm... yes
+    checking for --enable-xpm... yes
+    checking for --enable-ico_cur... yes
+    checking for --enable-dccache... yes
+    checking for --enable-ps-in-msw... yes
+    checking for --enable-ownerdrawn... yes
+    checking for --enable-uxtheme... yes
+    checking for --enable-wxdib... yes
+    checking for --enable-webviewie... yes
+    checking for --enable-autoidman... no
+    checking for gcc... gcc
+    checking whether the C compiler works... yes
+    checking for C compiler default output file name... a.out
+    checking for suffix of executables...
+    checking whether we are cross compiling... no
+    checking for suffix of object files... o
+    checking whether we are using the GNU C compiler... yes
+    checking whether gcc accepts -g... yes
+    checking for gcc option to accept ISO C89... none needed
+    checking whether we are using the Intel C compiler... no
+    checking how to run the C preprocessor... gcc -E
+    checking for grep that handles long lines and -e... /usr/bin/grep
+    checking for egrep... /usr/bin/grep -E
+    checking whether gcc needs -traditional... no
+    checking for g++... g++
+    checking whether we are using the GNU C++ compiler... yes
+    checking whether g++ accepts -g... yes
+    checking whether we are using the Intel C++ compiler... no
+    checking whether we are using the Metrowerks C++ compiler... no
+    checking whether we are using the IBM xlC C++ compiler... no
+    checking for ar... ar
+    checking if C compiler (gcc -mmacosx-version-min=10.6) works with SDK/version options... yes
+    checking if C++ compiler (g++ -mmacosx-version-min=10.6) works with SDK/version options... configure: error: in `/private/tmp/pip-install-fzw55eql/wxpython/build/wxbld':
+    configure: error: no.  Try a different SDK
+    See `config.log' for more details
+    Error running configure
+    ERROR: failed building wxWidgets
+    Traceback (most recent call last):
+      File "build.py", line 1295, in cmd_build_wx
+        wxbuild.main(wxDir(), build_options)
+      File "/private/tmp/pip-install-fzw55eql/wxpython/buildtools/build_wxwidgets.py", line 373, in main
+        exitIfError(wxBuilder.configure(dir=wxRootDir, options=configure_opts),
+      File "/private/tmp/pip-install-fzw55eql/wxpython/buildtools/build_wxwidgets.py", line 85, in exitIfError
+        raise builder.BuildError(msg)
+    buildtools.builder.BuildError: Error running configure
+    Finished command: build_wx (0m1.867s)
+    Finished command: build (0m1.867s)
+    Command '"/Library/Developer/CommandLineTools/usr/bin/python3" -u build.py build' failed with exit code 1.
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: /Library/Developer/CommandLineTools/usr/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/tmp/pip-install-fzw55eql/wxpython/setup.py'"'"'; __file__='"'"'/private/tmp/pip-install-fzw55eql/wxpython/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/tmp/pip-record-hajengd1/install-record.txt --single-version-externally-managed --compile --install-headers /Library/Python/3.8/include/wxPython Check the logs for full command output.
+WARNING: You are using pip version 20.2.3; however, version 23.0.1 is available.
+You should consider upgrading via the '/Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip' command.
+ros-install-project@John-Pauls-MacBook-Pro ~ % sudo python3 -m pip install wxPython==3.0.2.0
+WARNING: The directory '/Users/ros-install-project/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+ERROR: Could not find a version that satisfies the requirement wxPython==3.0.2.0 (from versions: 4.0.0a1, 4.0.0a2, 4.0.0a3, 4.0.0b1, 4.0.0b2, 4.0.0, 4.0.1, 4.0.2, 4.0.3, 4.0.4, 4.0.5, 4.0.6, 4.0.7, 4.0.7.post1, 4.0.7.post2, 4.1.0, 4.1.1, 4.2.0)
+ERROR: No matching distribution found for wxPython==3.0.2.0
+WARNING: You are using pip version 20.2.3; however, version 23.0.1 is available.
+You should consider upgrading via the '/Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip' command.
+ros-install-project@John-Pauls-MacBook-Pro ~ % sudo python3 -m pip install wxPython==4.0.0  
+WARNING: The directory '/Users/ros-install-project/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting wxPython==4.0.0
+  Downloading wxPython-4.0.0.tar.gz (67.9 MB)
+     |████████████████████████████████| 67.9 MB 10.2 MB/s 
+Requirement already satisfied: six in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/site-packages (from wxPython==4.0.0) (1.15.0)
+Building wheels for collected packages: wxPython
+  Building wheel for wxPython (setup.py) ... error
+  ERROR: Command errored out with exit status 1:
+   command: /Library/Developer/CommandLineTools/usr/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/tmp/pip-install-262sz8wa/wxpython/setup.py'"'"'; __file__='"'"'/private/tmp/pip-install-262sz8wa/wxpython/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /private/tmp/pip-wheel-vs34yqq0
+       cwd: /private/tmp/pip-install-262sz8wa/wxpython/
+  Complete output (331 lines):
+  running bdist_wheel
+  running build
+  WARNING: Building this way assumes that all generated files have been
+  generated already.  If that is not the case then use build.py directly
+  to generate the source and perform the build stage.  You can use
+  --skip-build with the bdist_* or install commands to avoid this
+  message and the wxWidgets and Phoenix build steps in the future.
+  
+  "/Library/Developer/CommandLineTools/usr/bin/python3" -u build.py build
+  Will build using: "/Library/Developer/CommandLineTools/usr/bin/python3"
+  3.8.9 (default, Oct 26 2021, 07:25:54)
+  [Clang 13.0.0 (clang-1300.0.29.30)]
+  Python's architecture is 64bit
+  cfg.VERSION: 4.0.0
+  
+  Running command: build
+  Running command: build_wx
+  wxWidgets build options: ['--wxpython', '--unicode', '--osx_cocoa']
+  Configure options: ['--enable-unicode', '--with-osx_cocoa', '--with-opengl', '--enable-sound', '--enable-graphics_ctx', '--enable-mediactrl', '--enable-display', '--enable-geometry', '--enable-debug_flag', '--enable-optimise', '--disable-debugreport', '--enable-uiactionsim', '--with-macosx-version-min=10.6']
+  /private/tmp/pip-install-262sz8wa/wxpython/ext/wxWidgets/configure --enable-unicode --with-osx_cocoa --with-opengl --enable-sound --enable-graphics_ctx --enable-mediactrl --enable-display --enable-geometry --enable-debug_flag --enable-optimise --disable-debugreport --enable-uiactionsim --with-macosx-version-min=10.6
+  checking build system type... x86_64-apple-darwin20.6.0
+  checking host system type... x86_64-apple-darwin20.6.0
+  checking for --disable-gui... no
+  checking for --enable-monolithic... no
+  checking for --enable-plugins... no
+  checking for --without-subdirs... no
+  checking for --enable-official_build... no
+  checking for --disable-all-features... no
+  checking for --enable-universal... no
+  checking for --enable-nanox... no
+  checking for --enable-gpe... no
+  checking for toolkit... osx_cocoa
+  checking for --with-libpng... yes
+  checking for --with-libjpeg... yes
+  checking for --with-libtiff... yes
+  checking for --without-libjbig... no
+  checking for --without-liblzma... no
+  checking for --with-libxpm... yes
+  checking for --with-libiconv... yes
+  checking for --with-libmspack... no
+  checking for --without-gtkprint... no
+  checking for --with-gnomevfs... no
+  checking for --with-libnotify... yes
+  checking for --with-hildon... no
+  checking for --with-opengl... yes
+  checking for --with-dmalloc... no
+  checking for --with-sdl... no
+  checking for --with-regex... yes
+  checking for --with-zlib... yes
+  checking for --with-expat... yes
+  checking for --with-macosx-sdk...
+  checking for --with-macosx-version-min... 10.6
+  checking for --enable-debug... default
+  checking for --disable-debug_flag... no
+  checking for --enable-debug_info... no
+  checking for --enable-debug_gdb... no
+  checking for --enable-debug_cntxt... no
+  checking for --enable-mem_tracing... no
+  checking for --disable-shared... no
+  checking for --enable-stl... no
+  checking for --enable-std_containers... no
+  checking for --enable-std_iostreams... yes
+  checking for --enable-std_string... yes
+  checking for --enable-std_string_conv_in_wxstring... no
+  checking for --disable-unicode... no
+  checking for --enable-mslu... no
+  checking for --enable-utf8... no
+  checking for --enable-utf8only... no
+  checking for --enable-extended_rtti... no
+  checking for --disable-optimise... no
+  checking for --enable-profile... no
+  checking for --enable-no_rtti... no
+  checking for --enable-no_exceptions... no
+  checking for --enable-permissive... no
+  checking for --enable-no_deps... no
+  checking for --disable-vararg_macros... no
+  checking for --enable-universal_binary... no
+  checking for --enable-macosx_arch... no
+  checking for --enable-compat26... no
+  checking for --disable-compat28... no
+  checking for --disable-rpath... no
+  checking for --enable-objc_uniquifying... no
+  checking for --disable-visibility... no
+  checking for --disable-tls... no
+  checking for --enable-intl... yes
+  checking for --enable-xlocale... yes
+  checking for --enable-config... yes
+  checking for --enable-protocols... yes
+  checking for --enable-ftp... yes
+  checking for --enable-http... yes
+  checking for --enable-fileproto... yes
+  checking for --enable-sockets... yes
+  checking for --enable-ipv6... no
+  checking for --enable-ole... yes
+  checking for --enable-dataobj... yes
+  checking for --enable-ipc... yes
+  checking for --enable-baseevtloop... yes
+  checking for --enable-epollloop... yes
+  checking for --enable-selectloop... yes
+  checking for --enable-any... yes
+  checking for --enable-apple_ieee... yes
+  checking for --enable-arcstream... yes
+  checking for --enable-base64... yes
+  checking for --enable-backtrace... yes
+  checking for --enable-catch_segvs... yes
+  checking for --enable-cmdline... yes
+  checking for --enable-datetime... yes
+  checking for --enable-debugreport... no
+  checking for --enable-dialupman... yes
+  checking for --enable-dynlib... yes
+  checking for --enable-dynamicloader... yes
+  checking for --enable-exceptions... yes
+  checking for --enable-ffile... yes
+  checking for --enable-file... yes
+  checking for --enable-filehistory... yes
+  checking for --enable-filesystem... yes
+  checking for --enable-fontenum... yes
+  checking for --enable-fontmap... yes
+  checking for --enable-fs_archive... yes
+  checking for --enable-fs_inet... yes
+  checking for --enable-fs_zip... yes
+  checking for --enable-fsvolume... yes
+  checking for --enable-fswatcher... yes
+  checking for --enable-geometry... yes
+  checking for --enable-log... yes
+  checking for --enable-longlong... yes
+  checking for --enable-mimetype... yes
+  checking for --enable-printfposparam... yes
+  checking for --enable-snglinst... yes
+  checking for --enable-sound... yes
+  checking for --enable-stdpaths... yes
+  checking for --enable-stopwatch... yes
+  checking for --enable-streams... yes
+  checking for --enable-sysoptions... yes
+  checking for --enable-tarstream... yes
+  checking for --enable-textbuf... yes
+  checking for --enable-textfile... yes
+  checking for --enable-timer... yes
+  checking for --enable-variant... yes
+  checking for --enable-zipstream... yes
+  checking for --enable-url... yes
+  checking for --enable-protocol... yes
+  checking for --enable-protocol_http... yes
+  checking for --enable-protocol_ftp... yes
+  checking for --enable-protocol_file... yes
+  checking for --enable-threads... yes
+  checking for --enable-iniconf... no
+  checking for --enable-regkey... yes
+  checking for --enable-docview... yes
+  checking for --enable-help... yes
+  checking for --enable-mshtmlhelp... yes
+  checking for --enable-html... yes
+  checking for --enable-htmlhelp... yes
+  checking for --enable-xrc... yes
+  checking for --enable-aui... yes
+  checking for --enable-propgrid... yes
+  checking for --enable-ribbon... yes
+  checking for --enable-stc... yes
+  checking for --enable-constraints... yes
+  checking for --enable-loggui... yes
+  checking for --enable-logwin... yes
+  checking for --enable-logdialog... yes
+  checking for --enable-mdi... yes
+  checking for --enable-mdidoc... yes
+  checking for --enable-mediactrl... yes
+  checking for --enable-gstreamer8... no
+  checking for --enable-richtext... yes
+  checking for --enable-postscript... yes
+  checking for --enable-printarch... yes
+  checking for --enable-svg... yes
+  checking for --enable-webkit... yes
+  checking for --enable-webview... yes
+  checking for --disable-qtkit... no
+  checking for --enable-clipboard... yes
+  checking for --enable-dnd... yes
+  checking for --disable-controls... no
+  checking for --enable-markup... yes
+  checking for --enable-accel... yes
+  checking for --enable-animatectrl... yes
+  checking for --enable-bannerwindow... yes
+  checking for --enable-artstd... yes
+  checking for --enable-arttango... auto
+  checking for --enable-bmpbutton... yes
+  checking for --enable-bmpcombobox... yes
+  checking for --enable-button... yes
+  checking for --enable-calendar... yes
+  checking for --enable-caret... yes
+  checking for --enable-checkbox... yes
+  checking for --enable-checklst... yes
+  checking for --enable-choice... yes
+  checking for --enable-choicebook... yes
+  checking for --enable-collpane... yes
+  checking for --enable-colourpicker... yes
+  checking for --enable-combobox... yes
+  checking for --enable-comboctrl... yes
+  checking for --enable-commandlinkbutton... yes
+  checking for --enable-dataviewctrl... yes
+  checking for --enable-datepick... yes
+  checking for --enable-detect_sm... yes
+  checking for --enable-dirpicker... yes
+  checking for --enable-display... yes
+  checking for --enable-editablebox... yes
+  checking for --enable-filectrl... yes
+  checking for --enable-filepicker... yes
+  checking for --enable-fontpicker... yes
+  checking for --enable-gauge... yes
+  checking for --enable-grid... yes
+  checking for --enable-headerctrl... yes
+  checking for --enable-hyperlink... yes
+  checking for --enable-imaglist... yes
+  checking for --enable-infobar... yes
+  checking for --enable-listbook... yes
+  checking for --enable-listbox... yes
+  checking for --enable-listctrl... yes
+  checking for --enable-notebook... yes
+  checking for --enable-notifmsg... yes
+  checking for --enable-odcombobox... yes
+  checking for --enable-popupwin... yes
+  checking for --enable-prefseditor... yes
+  checking for --enable-radiobox... yes
+  checking for --enable-radiobtn... yes
+  checking for --enable-richmsgdlg... yes
+  checking for --enable-richtooltip... yes
+  checking for --enable-rearrangectrl... yes
+  checking for --enable-sash... yes
+  checking for --enable-scrollbar... yes
+  checking for --enable-searchctrl... yes
+  checking for --enable-slider... yes
+  checking for --enable-spinbtn... yes
+  checking for --enable-spinctrl... yes
+  checking for --enable-splitter... yes
+  checking for --enable-statbmp... yes
+  checking for --enable-statbox... yes
+  checking for --enable-statline... yes
+  checking for --enable-stattext... yes
+  checking for --enable-statusbar... yes
+  checking for --enable-taskbaricon... yes
+  checking for --enable-tbarnative... yes
+  checking for --enable-textctrl... yes
+  checking for --enable-datepick... yes
+  checking for --enable-tipwindow... yes
+  checking for --enable-togglebtn... yes
+  checking for --enable-toolbar... yes
+  checking for --enable-toolbook... yes
+  checking for --enable-treebook... yes
+  checking for --enable-treectrl... yes
+  checking for --enable-treelist... yes
+  checking for --enable-commondlg... yes
+  checking for --enable-aboutdlg... yes
+  checking for --enable-choicedlg... yes
+  checking for --enable-coldlg... yes
+  checking for --enable-filedlg... yes
+  checking for --enable-finddlg... yes
+  checking for --enable-fontdlg... yes
+  checking for --enable-dirdlg... yes
+  checking for --enable-msgdlg... yes
+  checking for --enable-numberdlg... yes
+  checking for --enable-splash... yes
+  checking for --enable-textdlg... yes
+  checking for --enable-tipdlg... yes
+  checking for --enable-progressdlg... yes
+  checking for --enable-wizarddlg... yes
+  checking for --enable-menus... yes
+  checking for --enable-miniframe... yes
+  checking for --enable-tooltips... yes
+  checking for --enable-splines... yes
+  checking for --enable-mousewheel... yes
+  checking for --enable-validators... yes
+  checking for --enable-busyinfo... yes
+  checking for --enable-hotkey... auto
+  checking for --enable-joystick... yes
+  checking for --enable-metafile... auto
+  checking for --enable-dragimage... yes
+  checking for --enable-accessibility... no
+  checking for --enable-uiactionsim... yes
+  checking for --enable-dctransform... yes
+  checking for --enable-webviewwebkit... yes
+  checking for --enable-palette... yes
+  checking for --enable-image... yes
+  checking for --enable-gif... yes
+  checking for --enable-pcx... yes
+  checking for --enable-tga... yes
+  checking for --enable-iff... yes
+  checking for --enable-pnm... yes
+  checking for --enable-xpm... yes
+  checking for --enable-ico_cur... yes
+  checking for --enable-dccache... yes
+  checking for --enable-ps-in-msw... yes
+  checking for --enable-ownerdrawn... yes
+  checking for --enable-uxtheme... yes
+  checking for --enable-wxdib... yes
+  checking for --enable-webviewie... yes
+  checking for --enable-autoidman... no
+  checking for gcc... gcc
+  checking whether the C compiler works... yes
+  checking for C compiler default output file name... a.out
+  checking for suffix of executables...
+  checking whether we are cross compiling... no
+  checking for suffix of object files... o
+  checking whether we are using the GNU C compiler... yes
+  checking whether gcc accepts -g... yes
+  checking for gcc option to accept ISO C89... none needed
+  checking whether we are using the Intel C compiler... no
+  checking how to run the C preprocessor... gcc -E
+  checking for grep that handles long lines and -e... /usr/bin/grep
+  checking for egrep... /usr/bin/grep -E
+  checking whether gcc needs -traditional... no
+  checking for g++... g++
+  checking whether we are using the GNU C++ compiler... yes
+  checking whether g++ accepts -g... yes
+  checking whether we are using the Intel C++ compiler... no
+  checking whether we are using the Metrowerks C++ compiler... no
+  checking whether we are using the IBM xlC C++ compiler... no
+  checking for ar... ar
+  checking if C compiler (gcc -mmacosx-version-min=10.6) works with SDK/version options... yes
+  checking if C++ compiler (g++ -mmacosx-version-min=10.6) works with SDK/version options... configure: error: in `/private/tmp/pip-install-262sz8wa/wxpython/build/wxbld':
+  configure: error: no.  Try a different SDK
+  See `config.log' for more details
+  Error running configure
+  ERROR: failed building wxWidgets
+  Traceback (most recent call last):
+    File "build.py", line 1289, in cmd_build_wx
+      wxbuild.main(wxDir(), build_options)
+    File "/private/tmp/pip-install-262sz8wa/wxpython/buildtools/build_wxwidgets.py", line 373, in main
+      exitIfError(wxBuilder.configure(dir=wxRootDir, options=configure_opts),
+    File "/private/tmp/pip-install-262sz8wa/wxpython/buildtools/build_wxwidgets.py", line 85, in exitIfError
+      raise builder.BuildError(msg)
+  buildtools.builder.BuildError: Error running configure
+  Finished command: build_wx (0m2.60s)
+  Finished command: build (0m2.60s)
+  Command '"/Library/Developer/CommandLineTools/usr/bin/python3" -u build.py build' failed with exit code 1.
+  ----------------------------------------
+  ERROR: Failed building wheel for wxPython
+  Running setup.py clean for wxPython
+Failed to build wxPython
+Installing collected packages: wxPython
+    Running setup.py install for wxPython ... error
+    ERROR: Command errored out with exit status 1:
+     command: /Library/Developer/CommandLineTools/usr/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/tmp/pip-install-262sz8wa/wxpython/setup.py'"'"'; __file__='"'"'/private/tmp/pip-install-262sz8wa/wxpython/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/tmp/pip-record-oeqio3op/install-record.txt --single-version-externally-managed --compile --install-headers /Library/Python/3.8/include/wxPython
+         cwd: /private/tmp/pip-install-262sz8wa/wxpython/
+    Complete output (331 lines):
+    running install
+    running build
+    WARNING: Building this way assumes that all generated files have been
+    generated already.  If that is not the case then use build.py directly
+    to generate the source and perform the build stage.  You can use
+    --skip-build with the bdist_* or install commands to avoid this
+    message and the wxWidgets and Phoenix build steps in the future.
+    
+    "/Library/Developer/CommandLineTools/usr/bin/python3" -u build.py build
+    Will build using: "/Library/Developer/CommandLineTools/usr/bin/python3"
+    3.8.9 (default, Oct 26 2021, 07:25:54)
+    [Clang 13.0.0 (clang-1300.0.29.30)]
+    Python's architecture is 64bit
+    cfg.VERSION: 4.0.0
+    
+    Running command: build
+    Running command: build_wx
+    wxWidgets build options: ['--wxpython', '--unicode', '--osx_cocoa']
+    Configure options: ['--enable-unicode', '--with-osx_cocoa', '--with-opengl', '--enable-sound', '--enable-graphics_ctx', '--enable-mediactrl', '--enable-display', '--enable-geometry', '--enable-debug_flag', '--enable-optimise', '--disable-debugreport', '--enable-uiactionsim', '--with-macosx-version-min=10.6']
+    /private/tmp/pip-install-262sz8wa/wxpython/ext/wxWidgets/configure --enable-unicode --with-osx_cocoa --with-opengl --enable-sound --enable-graphics_ctx --enable-mediactrl --enable-display --enable-geometry --enable-debug_flag --enable-optimise --disable-debugreport --enable-uiactionsim --with-macosx-version-min=10.6
+    checking build system type... x86_64-apple-darwin20.6.0
+    checking host system type... x86_64-apple-darwin20.6.0
+    checking for --disable-gui... no
+    checking for --enable-monolithic... no
+    checking for --enable-plugins... no
+    checking for --without-subdirs... no
+    checking for --enable-official_build... no
+    checking for --disable-all-features... no
+    checking for --enable-universal... no
+    checking for --enable-nanox... no
+    checking for --enable-gpe... no
+    checking for toolkit... osx_cocoa
+    checking for --with-libpng... yes
+    checking for --with-libjpeg... yes
+    checking for --with-libtiff... yes
+    checking for --without-libjbig... no
+    checking for --without-liblzma... no
+    checking for --with-libxpm... yes
+    checking for --with-libiconv... yes
+    checking for --with-libmspack... no
+    checking for --without-gtkprint... no
+    checking for --with-gnomevfs... no
+    checking for --with-libnotify... yes
+    checking for --with-hildon... no
+    checking for --with-opengl... yes
+    checking for --with-dmalloc... no
+    checking for --with-sdl... no
+    checking for --with-regex... yes
+    checking for --with-zlib... yes
+    checking for --with-expat... yes
+    checking for --with-macosx-sdk...
+    checking for --with-macosx-version-min... 10.6
+    checking for --enable-debug... default
+    checking for --disable-debug_flag... no
+    checking for --enable-debug_info... no
+    checking for --enable-debug_gdb... no
+    checking for --enable-debug_cntxt... no
+    checking for --enable-mem_tracing... no
+    checking for --disable-shared... no
+    checking for --enable-stl... no
+    checking for --enable-std_containers... no
+    checking for --enable-std_iostreams... yes
+    checking for --enable-std_string... yes
+    checking for --enable-std_string_conv_in_wxstring... no
+    checking for --disable-unicode... no
+    checking for --enable-mslu... no
+    checking for --enable-utf8... no
+    checking for --enable-utf8only... no
+    checking for --enable-extended_rtti... no
+    checking for --disable-optimise... no
+    checking for --enable-profile... no
+    checking for --enable-no_rtti... no
+    checking for --enable-no_exceptions... no
+    checking for --enable-permissive... no
+    checking for --enable-no_deps... no
+    checking for --disable-vararg_macros... no
+    checking for --enable-universal_binary... no
+    checking for --enable-macosx_arch... no
+    checking for --enable-compat26... no
+    checking for --disable-compat28... no
+    checking for --disable-rpath... no
+    checking for --enable-objc_uniquifying... no
+    checking for --disable-visibility... no
+    checking for --disable-tls... no
+    checking for --enable-intl... yes
+    checking for --enable-xlocale... yes
+    checking for --enable-config... yes
+    checking for --enable-protocols... yes
+    checking for --enable-ftp... yes
+    checking for --enable-http... yes
+    checking for --enable-fileproto... yes
+    checking for --enable-sockets... yes
+    checking for --enable-ipv6... no
+    checking for --enable-ole... yes
+    checking for --enable-dataobj... yes
+    checking for --enable-ipc... yes
+    checking for --enable-baseevtloop... yes
+    checking for --enable-epollloop... yes
+    checking for --enable-selectloop... yes
+    checking for --enable-any... yes
+    checking for --enable-apple_ieee... yes
+    checking for --enable-arcstream... yes
+    checking for --enable-base64... yes
+    checking for --enable-backtrace... yes
+    checking for --enable-catch_segvs... yes
+    checking for --enable-cmdline... yes
+    checking for --enable-datetime... yes
+    checking for --enable-debugreport... no
+    checking for --enable-dialupman... yes
+    checking for --enable-dynlib... yes
+    checking for --enable-dynamicloader... yes
+    checking for --enable-exceptions... yes
+    checking for --enable-ffile... yes
+    checking for --enable-file... yes
+    checking for --enable-filehistory... yes
+    checking for --enable-filesystem... yes
+    checking for --enable-fontenum... yes
+    checking for --enable-fontmap... yes
+    checking for --enable-fs_archive... yes
+    checking for --enable-fs_inet... yes
+    checking for --enable-fs_zip... yes
+    checking for --enable-fsvolume... yes
+    checking for --enable-fswatcher... yes
+    checking for --enable-geometry... yes
+    checking for --enable-log... yes
+    checking for --enable-longlong... yes
+    checking for --enable-mimetype... yes
+    checking for --enable-printfposparam... yes
+    checking for --enable-snglinst... yes
+    checking for --enable-sound... yes
+    checking for --enable-stdpaths... yes
+    checking for --enable-stopwatch... yes
+    checking for --enable-streams... yes
+    checking for --enable-sysoptions... yes
+    checking for --enable-tarstream... yes
+    checking for --enable-textbuf... yes
+    checking for --enable-textfile... yes
+    checking for --enable-timer... yes
+    checking for --enable-variant... yes
+    checking for --enable-zipstream... yes
+    checking for --enable-url... yes
+    checking for --enable-protocol... yes
+    checking for --enable-protocol_http... yes
+    checking for --enable-protocol_ftp... yes
+    checking for --enable-protocol_file... yes
+    checking for --enable-threads... yes
+    checking for --enable-iniconf... no
+    checking for --enable-regkey... yes
+    checking for --enable-docview... yes
+    checking for --enable-help... yes
+    checking for --enable-mshtmlhelp... yes
+    checking for --enable-html... yes
+    checking for --enable-htmlhelp... yes
+    checking for --enable-xrc... yes
+    checking for --enable-aui... yes
+    checking for --enable-propgrid... yes
+    checking for --enable-ribbon... yes
+    checking for --enable-stc... yes
+    checking for --enable-constraints... yes
+    checking for --enable-loggui... yes
+    checking for --enable-logwin... yes
+    checking for --enable-logdialog... yes
+    checking for --enable-mdi... yes
+    checking for --enable-mdidoc... yes
+    checking for --enable-mediactrl... yes
+    checking for --enable-gstreamer8... no
+    checking for --enable-richtext... yes
+    checking for --enable-postscript... yes
+    checking for --enable-printarch... yes
+    checking for --enable-svg... yes
+    checking for --enable-webkit... yes
+    checking for --enable-webview... yes
+    checking for --disable-qtkit... no
+    checking for --enable-clipboard... yes
+    checking for --enable-dnd... yes
+    checking for --disable-controls... no
+    checking for --enable-markup... yes
+    checking for --enable-accel... yes
+    checking for --enable-animatectrl... yes
+    checking for --enable-bannerwindow... yes
+    checking for --enable-artstd... yes
+    checking for --enable-arttango... auto
+    checking for --enable-bmpbutton... yes
+    checking for --enable-bmpcombobox... yes
+    checking for --enable-button... yes
+    checking for --enable-calendar... yes
+    checking for --enable-caret... yes
+    checking for --enable-checkbox... yes
+    checking for --enable-checklst... yes
+    checking for --enable-choice... yes
+    checking for --enable-choicebook... yes
+    checking for --enable-collpane... yes
+    checking for --enable-colourpicker... yes
+    checking for --enable-combobox... yes
+    checking for --enable-comboctrl... yes
+    checking for --enable-commandlinkbutton... yes
+    checking for --enable-dataviewctrl... yes
+    checking for --enable-datepick... yes
+    checking for --enable-detect_sm... yes
+    checking for --enable-dirpicker... yes
+    checking for --enable-display... yes
+    checking for --enable-editablebox... yes
+    checking for --enable-filectrl... yes
+    checking for --enable-filepicker... yes
+    checking for --enable-fontpicker... yes
+    checking for --enable-gauge... yes
+    checking for --enable-grid... yes
+    checking for --enable-headerctrl... yes
+    checking for --enable-hyperlink... yes
+    checking for --enable-imaglist... yes
+    checking for --enable-infobar... yes
+    checking for --enable-listbook... yes
+    checking for --enable-listbox... yes
+    checking for --enable-listctrl... yes
+    checking for --enable-notebook... yes
+    checking for --enable-notifmsg... yes
+    checking for --enable-odcombobox... yes
+    checking for --enable-popupwin... yes
+    checking for --enable-prefseditor... yes
+    checking for --enable-radiobox... yes
+    checking for --enable-radiobtn... yes
+    checking for --enable-richmsgdlg... yes
+    checking for --enable-richtooltip... yes
+    checking for --enable-rearrangectrl... yes
+    checking for --enable-sash... yes
+    checking for --enable-scrollbar... yes
+    checking for --enable-searchctrl... yes
+    checking for --enable-slider... yes
+    checking for --enable-spinbtn... yes
+    checking for --enable-spinctrl... yes
+    checking for --enable-splitter... yes
+    checking for --enable-statbmp... yes
+    checking for --enable-statbox... yes
+    checking for --enable-statline... yes
+    checking for --enable-stattext... yes
+    checking for --enable-statusbar... yes
+    checking for --enable-taskbaricon... yes
+    checking for --enable-tbarnative... yes
+    checking for --enable-textctrl... yes
+    checking for --enable-datepick... yes
+    checking for --enable-tipwindow... yes
+    checking for --enable-togglebtn... yes
+    checking for --enable-toolbar... yes
+    checking for --enable-toolbook... yes
+    checking for --enable-treebook... yes
+    checking for --enable-treectrl... yes
+    checking for --enable-treelist... yes
+    checking for --enable-commondlg... yes
+    checking for --enable-aboutdlg... yes
+    checking for --enable-choicedlg... yes
+    checking for --enable-coldlg... yes
+    checking for --enable-filedlg... yes
+    checking for --enable-finddlg... yes
+    checking for --enable-fontdlg... yes
+    checking for --enable-dirdlg... yes
+    checking for --enable-msgdlg... yes
+    checking for --enable-numberdlg... yes
+    checking for --enable-splash... yes
+    checking for --enable-textdlg... yes
+    checking for --enable-tipdlg... yes
+    checking for --enable-progressdlg... yes
+    checking for --enable-wizarddlg... yes
+    checking for --enable-menus... yes
+    checking for --enable-miniframe... yes
+    checking for --enable-tooltips... yes
+    checking for --enable-splines... yes
+    checking for --enable-mousewheel... yes
+    checking for --enable-validators... yes
+    checking for --enable-busyinfo... yes
+    checking for --enable-hotkey... auto
+    checking for --enable-joystick... yes
+    checking for --enable-metafile... auto
+    checking for --enable-dragimage... yes
+    checking for --enable-accessibility... no
+    checking for --enable-uiactionsim... yes
+    checking for --enable-dctransform... yes
+    checking for --enable-webviewwebkit... yes
+    checking for --enable-palette... yes
+    checking for --enable-image... yes
+    checking for --enable-gif... yes
+    checking for --enable-pcx... yes
+    checking for --enable-tga... yes
+    checking for --enable-iff... yes
+    checking for --enable-pnm... yes
+    checking for --enable-xpm... yes
+    checking for --enable-ico_cur... yes
+    checking for --enable-dccache... yes
+    checking for --enable-ps-in-msw... yes
+    checking for --enable-ownerdrawn... yes
+    checking for --enable-uxtheme... yes
+    checking for --enable-wxdib... yes
+    checking for --enable-webviewie... yes
+    checking for --enable-autoidman... no
+    checking for gcc... gcc
+    checking whether the C compiler works... yes
+    checking for C compiler default output file name... a.out
+    checking for suffix of executables...
+    checking whether we are cross compiling... no
+    checking for suffix of object files... o
+    checking whether we are using the GNU C compiler... yes
+    checking whether gcc accepts -g... yes
+    checking for gcc option to accept ISO C89... none needed
+    checking whether we are using the Intel C compiler... no
+    checking how to run the C preprocessor... gcc -E
+    checking for grep that handles long lines and -e... /usr/bin/grep
+    checking for egrep... /usr/bin/grep -E
+    checking whether gcc needs -traditional... no
+    checking for g++... g++
+    checking whether we are using the GNU C++ compiler... yes
+    checking whether g++ accepts -g... yes
+    checking whether we are using the Intel C++ compiler... no
+    checking whether we are using the Metrowerks C++ compiler... no
+    checking whether we are using the IBM xlC C++ compiler... no
+    checking for ar... ar
+    checking if C compiler (gcc -mmacosx-version-min=10.6) works with SDK/version options... yes
+    checking if C++ compiler (g++ -mmacosx-version-min=10.6) works with SDK/version options... configure: error: in `/private/tmp/pip-install-262sz8wa/wxpython/build/wxbld':
+    configure: error: no.  Try a different SDK
+    See `config.log' for more details
+    Error running configure
+    ERROR: failed building wxWidgets
+    Traceback (most recent call last):
+      File "build.py", line 1289, in cmd_build_wx
+        wxbuild.main(wxDir(), build_options)
+      File "/private/tmp/pip-install-262sz8wa/wxpython/buildtools/build_wxwidgets.py", line 373, in main
+        exitIfError(wxBuilder.configure(dir=wxRootDir, options=configure_opts),
+      File "/private/tmp/pip-install-262sz8wa/wxpython/buildtools/build_wxwidgets.py", line 85, in exitIfError
+        raise builder.BuildError(msg)
+    buildtools.builder.BuildError: Error running configure
+    Finished command: build_wx (0m1.964s)
+    Finished command: build (0m1.964s)
+    Command '"/Library/Developer/CommandLineTools/usr/bin/python3" -u build.py build' failed with exit code 1.
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: /Library/Developer/CommandLineTools/usr/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/tmp/pip-install-262sz8wa/wxpython/setup.py'"'"'; __file__='"'"'/private/tmp/pip-install-262sz8wa/wxpython/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/tmp/pip-record-oeqio3op/install-record.txt --single-version-externally-managed --compile --install-headers /Library/Python/3.8/include/wxPython Check the logs for full command output.
+WARNING: You are using pip version 20.2.3; however, version 23.0.1 is available.
+You should consider upgrading via the '/Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip' command.
+ros-install-project@John-Pauls-MacBook-Pro ~ % sudo python3 -m pip install wxPython==4.0.1   
+Password:
+WARNING: The directory '/Users/ros-install-project/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting wxPython==4.0.1
+  Downloading wxPython-4.0.1.tar.gz (67.9 MB)
+     |████████████████████████████████| 67.9 MB 8.3 MB/s 
+Requirement already satisfied: six in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/site-packages (from wxPython==4.0.1) (1.15.0)
+Building wheels for collected packages: wxPython
+  Building wheel for wxPython (setup.py) ... error
+  ERROR: Command errored out with exit status 1:
+   command: /Library/Developer/CommandLineTools/usr/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/tmp/pip-install-3zq1idam/wxpython/setup.py'"'"'; __file__='"'"'/private/tmp/pip-install-3zq1idam/wxpython/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /private/tmp/pip-wheel-qwmuxc0v
+       cwd: /private/tmp/pip-install-3zq1idam/wxpython/
+  Complete output (331 lines):
+  running bdist_wheel
+  running build
+  WARNING: Building this way assumes that all generated files have been
+  generated already.  If that is not the case then use build.py directly
+  to generate the source and perform the build stage.  You can use
+  --skip-build with the bdist_* or install commands to avoid this
+  message and the wxWidgets and Phoenix build steps in the future.
+  
+  "/Library/Developer/CommandLineTools/usr/bin/python3" -u build.py build
+  Will build using: "/Library/Developer/CommandLineTools/usr/bin/python3"
+  3.8.9 (default, Oct 26 2021, 07:25:54)
+  [Clang 13.0.0 (clang-1300.0.29.30)]
+  Python's architecture is 64bit
+  cfg.VERSION: 4.0.1
+  
+  Running command: build
+  Running command: build_wx
+  wxWidgets build options: ['--wxpython', '--unicode', '--osx_cocoa']
+  Configure options: ['--enable-unicode', '--with-osx_cocoa', '--with-opengl', '--enable-sound', '--enable-graphics_ctx', '--enable-mediactrl', '--enable-display', '--enable-geometry', '--enable-debug_flag', '--enable-optimise', '--disable-debugreport', '--enable-uiactionsim', '--with-macosx-version-min=10.6']
+  /private/tmp/pip-install-3zq1idam/wxpython/ext/wxWidgets/configure --enable-unicode --with-osx_cocoa --with-opengl --enable-sound --enable-graphics_ctx --enable-mediactrl --enable-display --enable-geometry --enable-debug_flag --enable-optimise --disable-debugreport --enable-uiactionsim --with-macosx-version-min=10.6
+  checking build system type... x86_64-apple-darwin20.6.0
+  checking host system type... x86_64-apple-darwin20.6.0
+  checking for --disable-gui... no
+  checking for --enable-monolithic... no
+  checking for --enable-plugins... no
+  checking for --without-subdirs... no
+  checking for --enable-official_build... no
+  checking for --disable-all-features... no
+  checking for --enable-universal... no
+  checking for --enable-nanox... no
+  checking for --enable-gpe... no
+  checking for toolkit... osx_cocoa
+  checking for --with-libpng... yes
+  checking for --with-libjpeg... yes
+  checking for --with-libtiff... yes
+  checking for --without-libjbig... no
+  checking for --without-liblzma... no
+  checking for --with-libxpm... yes
+  checking for --with-libiconv... yes
+  checking for --with-libmspack... no
+  checking for --without-gtkprint... no
+  checking for --with-gnomevfs... no
+  checking for --with-libnotify... yes
+  checking for --with-hildon... no
+  checking for --with-opengl... yes
+  checking for --with-dmalloc... no
+  checking for --with-sdl... no
+  checking for --with-regex... yes
+  checking for --with-zlib... yes
+  checking for --with-expat... yes
+  checking for --with-macosx-sdk...
+  checking for --with-macosx-version-min... 10.6
+  checking for --enable-debug... default
+  checking for --disable-debug_flag... no
+  checking for --enable-debug_info... no
+  checking for --enable-debug_gdb... no
+  checking for --enable-debug_cntxt... no
+  checking for --enable-mem_tracing... no
+  checking for --disable-shared... no
+  checking for --enable-stl... no
+  checking for --enable-std_containers... no
+  checking for --enable-std_iostreams... yes
+  checking for --enable-std_string... yes
+  checking for --enable-std_string_conv_in_wxstring... no
+  checking for --disable-unicode... no
+  checking for --enable-mslu... no
+  checking for --enable-utf8... no
+  checking for --enable-utf8only... no
+  checking for --enable-extended_rtti... no
+  checking for --disable-optimise... no
+  checking for --enable-profile... no
+  checking for --enable-no_rtti... no
+  checking for --enable-no_exceptions... no
+  checking for --enable-permissive... no
+  checking for --enable-no_deps... no
+  checking for --disable-vararg_macros... no
+  checking for --enable-universal_binary... no
+  checking for --enable-macosx_arch... no
+  checking for --enable-compat26... no
+  checking for --disable-compat28... no
+  checking for --disable-rpath... no
+  checking for --enable-objc_uniquifying... no
+  checking for --disable-visibility... no
+  checking for --disable-tls... no
+  checking for --enable-intl... yes
+  checking for --enable-xlocale... yes
+  checking for --enable-config... yes
+  checking for --enable-protocols... yes
+  checking for --enable-ftp... yes
+  checking for --enable-http... yes
+  checking for --enable-fileproto... yes
+  checking for --enable-sockets... yes
+  checking for --enable-ipv6... no
+  checking for --enable-ole... yes
+  checking for --enable-dataobj... yes
+  checking for --enable-ipc... yes
+  checking for --enable-baseevtloop... yes
+  checking for --enable-epollloop... yes
+  checking for --enable-selectloop... yes
+  checking for --enable-any... yes
+  checking for --enable-apple_ieee... yes
+  checking for --enable-arcstream... yes
+  checking for --enable-base64... yes
+  checking for --enable-backtrace... yes
+  checking for --enable-catch_segvs... yes
+  checking for --enable-cmdline... yes
+  checking for --enable-datetime... yes
+  checking for --enable-debugreport... no
+  checking for --enable-dialupman... yes
+  checking for --enable-dynlib... yes
+  checking for --enable-dynamicloader... yes
+  checking for --enable-exceptions... yes
+  checking for --enable-ffile... yes
+  checking for --enable-file... yes
+  checking for --enable-filehistory... yes
+  checking for --enable-filesystem... yes
+  checking for --enable-fontenum... yes
+  checking for --enable-fontmap... yes
+  checking for --enable-fs_archive... yes
+  checking for --enable-fs_inet... yes
+  checking for --enable-fs_zip... yes
+  checking for --enable-fsvolume... yes
+  checking for --enable-fswatcher... yes
+  checking for --enable-geometry... yes
+  checking for --enable-log... yes
+  checking for --enable-longlong... yes
+  checking for --enable-mimetype... yes
+  checking for --enable-printfposparam... yes
+  checking for --enable-snglinst... yes
+  checking for --enable-sound... yes
+  checking for --enable-stdpaths... yes
+  checking for --enable-stopwatch... yes
+  checking for --enable-streams... yes
+  checking for --enable-sysoptions... yes
+  checking for --enable-tarstream... yes
+  checking for --enable-textbuf... yes
+  checking for --enable-textfile... yes
+  checking for --enable-timer... yes
+  checking for --enable-variant... yes
+  checking for --enable-zipstream... yes
+  checking for --enable-url... yes
+  checking for --enable-protocol... yes
+  checking for --enable-protocol_http... yes
+  checking for --enable-protocol_ftp... yes
+  checking for --enable-protocol_file... yes
+  checking for --enable-threads... yes
+  checking for --enable-iniconf... no
+  checking for --enable-regkey... yes
+  checking for --enable-docview... yes
+  checking for --enable-help... yes
+  checking for --enable-mshtmlhelp... yes
+  checking for --enable-html... yes
+  checking for --enable-htmlhelp... yes
+  checking for --enable-xrc... yes
+  checking for --enable-aui... yes
+  checking for --enable-propgrid... yes
+  checking for --enable-ribbon... yes
+  checking for --enable-stc... yes
+  checking for --enable-constraints... yes
+  checking for --enable-loggui... yes
+  checking for --enable-logwin... yes
+  checking for --enable-logdialog... yes
+  checking for --enable-mdi... yes
+  checking for --enable-mdidoc... yes
+  checking for --enable-mediactrl... yes
+  checking for --enable-gstreamer8... no
+  checking for --enable-richtext... yes
+  checking for --enable-postscript... yes
+  checking for --enable-printarch... yes
+  checking for --enable-svg... yes
+  checking for --enable-webkit... yes
+  checking for --enable-webview... yes
+  checking for --disable-qtkit... no
+  checking for --enable-clipboard... yes
+  checking for --enable-dnd... yes
+  checking for --disable-controls... no
+  checking for --enable-markup... yes
+  checking for --enable-accel... yes
+  checking for --enable-animatectrl... yes
+  checking for --enable-bannerwindow... yes
+  checking for --enable-artstd... yes
+  checking for --enable-arttango... auto
+  checking for --enable-bmpbutton... yes
+  checking for --enable-bmpcombobox... yes
+  checking for --enable-button... yes
+  checking for --enable-calendar... yes
+  checking for --enable-caret... yes
+  checking for --enable-checkbox... yes
+  checking for --enable-checklst... yes
+  checking for --enable-choice... yes
+  checking for --enable-choicebook... yes
+  checking for --enable-collpane... yes
+  checking for --enable-colourpicker... yes
+  checking for --enable-combobox... yes
+  checking for --enable-comboctrl... yes
+  checking for --enable-commandlinkbutton... yes
+  checking for --enable-dataviewctrl... yes
+  checking for --enable-datepick... yes
+  checking for --enable-detect_sm... yes
+  checking for --enable-dirpicker... yes
+  checking for --enable-display... yes
+  checking for --enable-editablebox... yes
+  checking for --enable-filectrl... yes
+  checking for --enable-filepicker... yes
+  checking for --enable-fontpicker... yes
+  checking for --enable-gauge... yes
+  checking for --enable-grid... yes
+  checking for --enable-headerctrl... yes
+  checking for --enable-hyperlink... yes
+  checking for --enable-imaglist... yes
+  checking for --enable-infobar... yes
+  checking for --enable-listbook... yes
+  checking for --enable-listbox... yes
+  checking for --enable-listctrl... yes
+  checking for --enable-notebook... yes
+  checking for --enable-notifmsg... yes
+  checking for --enable-odcombobox... yes
+  checking for --enable-popupwin... yes
+  checking for --enable-prefseditor... yes
+  checking for --enable-radiobox... yes
+  checking for --enable-radiobtn... yes
+  checking for --enable-richmsgdlg... yes
+  checking for --enable-richtooltip... yes
+  checking for --enable-rearrangectrl... yes
+  checking for --enable-sash... yes
+  checking for --enable-scrollbar... yes
+  checking for --enable-searchctrl... yes
+  checking for --enable-slider... yes
+  checking for --enable-spinbtn... yes
+  checking for --enable-spinctrl... yes
+  checking for --enable-splitter... yes
+  checking for --enable-statbmp... yes
+  checking for --enable-statbox... yes
+  checking for --enable-statline... yes
+  checking for --enable-stattext... yes
+  checking for --enable-statusbar... yes
+  checking for --enable-taskbaricon... yes
+  checking for --enable-tbarnative... yes
+  checking for --enable-textctrl... yes
+  checking for --enable-datepick... yes
+  checking for --enable-tipwindow... yes
+  checking for --enable-togglebtn... yes
+  checking for --enable-toolbar... yes
+  checking for --enable-toolbook... yes
+  checking for --enable-treebook... yes
+  checking for --enable-treectrl... yes
+  checking for --enable-treelist... yes
+  checking for --enable-commondlg... yes
+  checking for --enable-aboutdlg... yes
+  checking for --enable-choicedlg... yes
+  checking for --enable-coldlg... yes
+  checking for --enable-filedlg... yes
+  checking for --enable-finddlg... yes
+  checking for --enable-fontdlg... yes
+  checking for --enable-dirdlg... yes
+  checking for --enable-msgdlg... yes
+  checking for --enable-numberdlg... yes
+  checking for --enable-splash... yes
+  checking for --enable-textdlg... yes
+  checking for --enable-tipdlg... yes
+  checking for --enable-progressdlg... yes
+  checking for --enable-wizarddlg... yes
+  checking for --enable-menus... yes
+  checking for --enable-miniframe... yes
+  checking for --enable-tooltips... yes
+  checking for --enable-splines... yes
+  checking for --enable-mousewheel... yes
+  checking for --enable-validators... yes
+  checking for --enable-busyinfo... yes
+  checking for --enable-hotkey... auto
+  checking for --enable-joystick... yes
+  checking for --enable-metafile... auto
+  checking for --enable-dragimage... yes
+  checking for --enable-accessibility... no
+  checking for --enable-uiactionsim... yes
+  checking for --enable-dctransform... yes
+  checking for --enable-webviewwebkit... yes
+  checking for --enable-palette... yes
+  checking for --enable-image... yes
+  checking for --enable-gif... yes
+  checking for --enable-pcx... yes
+  checking for --enable-tga... yes
+  checking for --enable-iff... yes
+  checking for --enable-pnm... yes
+  checking for --enable-xpm... yes
+  checking for --enable-ico_cur... yes
+  checking for --enable-dccache... yes
+  checking for --enable-ps-in-msw... yes
+  checking for --enable-ownerdrawn... yes
+  checking for --enable-uxtheme... yes
+  checking for --enable-wxdib... yes
+  checking for --enable-webviewie... yes
+  checking for --enable-autoidman... no
+  checking for gcc... gcc
+  checking whether the C compiler works... yes
+  checking for C compiler default output file name... a.out
+  checking for suffix of executables...
+  checking whether we are cross compiling... no
+  checking for suffix of object files... o
+  checking whether we are using the GNU C compiler... yes
+  checking whether gcc accepts -g... yes
+  checking for gcc option to accept ISO C89... none needed
+  checking whether we are using the Intel C compiler... no
+  checking how to run the C preprocessor... gcc -E
+  checking for grep that handles long lines and -e... /usr/bin/grep
+  checking for egrep... /usr/bin/grep -E
+  checking whether gcc needs -traditional... no
+  checking for g++... g++
+  checking whether we are using the GNU C++ compiler... yes
+  checking whether g++ accepts -g... yes
+  checking whether we are using the Intel C++ compiler... no
+  checking whether we are using the Metrowerks C++ compiler... no
+  checking whether we are using the IBM xlC C++ compiler... no
+  checking for ar... ar
+  checking if C compiler (gcc -mmacosx-version-min=10.6) works with SDK/version options... yes
+  checking if C++ compiler (g++ -mmacosx-version-min=10.6) works with SDK/version options... configure: error: in `/private/tmp/pip-install-3zq1idam/wxpython/build/wxbld':
+  configure: error: no.  Try a different SDK
+  See `config.log' for more details
+  Error running configure
+  ERROR: failed building wxWidgets
+  Traceback (most recent call last):
+    File "build.py", line 1295, in cmd_build_wx
+      wxbuild.main(wxDir(), build_options)
+    File "/private/tmp/pip-install-3zq1idam/wxpython/buildtools/build_wxwidgets.py", line 373, in main
+      exitIfError(wxBuilder.configure(dir=wxRootDir, options=configure_opts),
+    File "/private/tmp/pip-install-3zq1idam/wxpython/buildtools/build_wxwidgets.py", line 85, in exitIfError
+      raise builder.BuildError(msg)
+  buildtools.builder.BuildError: Error running configure
+  Finished command: build_wx (0m2.30s)
+  Finished command: build (0m2.30s)
+  Command '"/Library/Developer/CommandLineTools/usr/bin/python3" -u build.py build' failed with exit code 1.
+  ----------------------------------------
+  ERROR: Failed building wheel for wxPython
+  Running setup.py clean for wxPython
+Failed to build wxPython
+Installing collected packages: wxPython
+    Running setup.py install for wxPython ... error
+    ERROR: Command errored out with exit status 1:
+     command: /Library/Developer/CommandLineTools/usr/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/tmp/pip-install-3zq1idam/wxpython/setup.py'"'"'; __file__='"'"'/private/tmp/pip-install-3zq1idam/wxpython/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/tmp/pip-record-1s1x6eog/install-record.txt --single-version-externally-managed --compile --install-headers /Library/Python/3.8/include/wxPython
+         cwd: /private/tmp/pip-install-3zq1idam/wxpython/
+    Complete output (331 lines):
+    running install
+    running build
+    WARNING: Building this way assumes that all generated files have been
+    generated already.  If that is not the case then use build.py directly
+    to generate the source and perform the build stage.  You can use
+    --skip-build with the bdist_* or install commands to avoid this
+    message and the wxWidgets and Phoenix build steps in the future.
+    
+    "/Library/Developer/CommandLineTools/usr/bin/python3" -u build.py build
+    Will build using: "/Library/Developer/CommandLineTools/usr/bin/python3"
+    3.8.9 (default, Oct 26 2021, 07:25:54)
+    [Clang 13.0.0 (clang-1300.0.29.30)]
+    Python's architecture is 64bit
+    cfg.VERSION: 4.0.1
+    
+    Running command: build
+    Running command: build_wx
+    wxWidgets build options: ['--wxpython', '--unicode', '--osx_cocoa']
+    Configure options: ['--enable-unicode', '--with-osx_cocoa', '--with-opengl', '--enable-sound', '--enable-graphics_ctx', '--enable-mediactrl', '--enable-display', '--enable-geometry', '--enable-debug_flag', '--enable-optimise', '--disable-debugreport', '--enable-uiactionsim', '--with-macosx-version-min=10.6']
+    /private/tmp/pip-install-3zq1idam/wxpython/ext/wxWidgets/configure --enable-unicode --with-osx_cocoa --with-opengl --enable-sound --enable-graphics_ctx --enable-mediactrl --enable-display --enable-geometry --enable-debug_flag --enable-optimise --disable-debugreport --enable-uiactionsim --with-macosx-version-min=10.6
+    checking build system type... x86_64-apple-darwin20.6.0
+    checking host system type... x86_64-apple-darwin20.6.0
+    checking for --disable-gui... no
+    checking for --enable-monolithic... no
+    checking for --enable-plugins... no
+    checking for --without-subdirs... no
+    checking for --enable-official_build... no
+    checking for --disable-all-features... no
+    checking for --enable-universal... no
+    checking for --enable-nanox... no
+    checking for --enable-gpe... no
+    checking for toolkit... osx_cocoa
+    checking for --with-libpng... yes
+    checking for --with-libjpeg... yes
+    checking for --with-libtiff... yes
+    checking for --without-libjbig... no
+    checking for --without-liblzma... no
+    checking for --with-libxpm... yes
+    checking for --with-libiconv... yes
+    checking for --with-libmspack... no
+    checking for --without-gtkprint... no
+    checking for --with-gnomevfs... no
+    checking for --with-libnotify... yes
+    checking for --with-hildon... no
+    checking for --with-opengl... yes
+    checking for --with-dmalloc... no
+    checking for --with-sdl... no
+    checking for --with-regex... yes
+    checking for --with-zlib... yes
+    checking for --with-expat... yes
+    checking for --with-macosx-sdk...
+    checking for --with-macosx-version-min... 10.6
+    checking for --enable-debug... default
+    checking for --disable-debug_flag... no
+    checking for --enable-debug_info... no
+    checking for --enable-debug_gdb... no
+    checking for --enable-debug_cntxt... no
+    checking for --enable-mem_tracing... no
+    checking for --disable-shared... no
+    checking for --enable-stl... no
+    checking for --enable-std_containers... no
+    checking for --enable-std_iostreams... yes
+    checking for --enable-std_string... yes
+    checking for --enable-std_string_conv_in_wxstring... no
+    checking for --disable-unicode... no
+    checking for --enable-mslu... no
+    checking for --enable-utf8... no
+    checking for --enable-utf8only... no
+    checking for --enable-extended_rtti... no
+    checking for --disable-optimise... no
+    checking for --enable-profile... no
+    checking for --enable-no_rtti... no
+    checking for --enable-no_exceptions... no
+    checking for --enable-permissive... no
+    checking for --enable-no_deps... no
+    checking for --disable-vararg_macros... no
+    checking for --enable-universal_binary... no
+    checking for --enable-macosx_arch... no
+    checking for --enable-compat26... no
+    checking for --disable-compat28... no
+    checking for --disable-rpath... no
+    checking for --enable-objc_uniquifying... no
+    checking for --disable-visibility... no
+    checking for --disable-tls... no
+    checking for --enable-intl... yes
+    checking for --enable-xlocale... yes
+    checking for --enable-config... yes
+    checking for --enable-protocols... yes
+    checking for --enable-ftp... yes
+    checking for --enable-http... yes
+    checking for --enable-fileproto... yes
+    checking for --enable-sockets... yes
+    checking for --enable-ipv6... no
+    checking for --enable-ole... yes
+    checking for --enable-dataobj... yes
+    checking for --enable-ipc... yes
+    checking for --enable-baseevtloop... yes
+    checking for --enable-epollloop... yes
+    checking for --enable-selectloop... yes
+    checking for --enable-any... yes
+    checking for --enable-apple_ieee... yes
+    checking for --enable-arcstream... yes
+    checking for --enable-base64... yes
+    checking for --enable-backtrace... yes
+    checking for --enable-catch_segvs... yes
+    checking for --enable-cmdline... yes
+    checking for --enable-datetime... yes
+    checking for --enable-debugreport... no
+    checking for --enable-dialupman... yes
+    checking for --enable-dynlib... yes
+    checking for --enable-dynamicloader... yes
+    checking for --enable-exceptions... yes
+    checking for --enable-ffile... yes
+    checking for --enable-file... yes
+    checking for --enable-filehistory... yes
+    checking for --enable-filesystem... yes
+    checking for --enable-fontenum... yes
+    checking for --enable-fontmap... yes
+    checking for --enable-fs_archive... yes
+    checking for --enable-fs_inet... yes
+    checking for --enable-fs_zip... yes
+    checking for --enable-fsvolume... yes
+    checking for --enable-fswatcher... yes
+    checking for --enable-geometry... yes
+    checking for --enable-log... yes
+    checking for --enable-longlong... yes
+    checking for --enable-mimetype... yes
+    checking for --enable-printfposparam... yes
+    checking for --enable-snglinst... yes
+    checking for --enable-sound... yes
+    checking for --enable-stdpaths... yes
+    checking for --enable-stopwatch... yes
+    checking for --enable-streams... yes
+    checking for --enable-sysoptions... yes
+    checking for --enable-tarstream... yes
+    checking for --enable-textbuf... yes
+    checking for --enable-textfile... yes
+    checking for --enable-timer... yes
+    checking for --enable-variant... yes
+    checking for --enable-zipstream... yes
+    checking for --enable-url... yes
+    checking for --enable-protocol... yes
+    checking for --enable-protocol_http... yes
+    checking for --enable-protocol_ftp... yes
+    checking for --enable-protocol_file... yes
+    checking for --enable-threads... yes
+    checking for --enable-iniconf... no
+    checking for --enable-regkey... yes
+    checking for --enable-docview... yes
+    checking for --enable-help... yes
+    checking for --enable-mshtmlhelp... yes
+    checking for --enable-html... yes
+    checking for --enable-htmlhelp... yes
+    checking for --enable-xrc... yes
+    checking for --enable-aui... yes
+    checking for --enable-propgrid... yes
+    checking for --enable-ribbon... yes
+    checking for --enable-stc... yes
+    checking for --enable-constraints... yes
+    checking for --enable-loggui... yes
+    checking for --enable-logwin... yes
+    checking for --enable-logdialog... yes
+    checking for --enable-mdi... yes
+    checking for --enable-mdidoc... yes
+    checking for --enable-mediactrl... yes
+    checking for --enable-gstreamer8... no
+    checking for --enable-richtext... yes
+    checking for --enable-postscript... yes
+    checking for --enable-printarch... yes
+    checking for --enable-svg... yes
+    checking for --enable-webkit... yes
+    checking for --enable-webview... yes
+    checking for --disable-qtkit... no
+    checking for --enable-clipboard... yes
+    checking for --enable-dnd... yes
+    checking for --disable-controls... no
+    checking for --enable-markup... yes
+    checking for --enable-accel... yes
+    checking for --enable-animatectrl... yes
+    checking for --enable-bannerwindow... yes
+    checking for --enable-artstd... yes
+    checking for --enable-arttango... auto
+    checking for --enable-bmpbutton... yes
+    checking for --enable-bmpcombobox... yes
+    checking for --enable-button... yes
+    checking for --enable-calendar... yes
+    checking for --enable-caret... yes
+    checking for --enable-checkbox... yes
+    checking for --enable-checklst... yes
+    checking for --enable-choice... yes
+    checking for --enable-choicebook... yes
+    checking for --enable-collpane... yes
+    checking for --enable-colourpicker... yes
+    checking for --enable-combobox... yes
+    checking for --enable-comboctrl... yes
+    checking for --enable-commandlinkbutton... yes
+    checking for --enable-dataviewctrl... yes
+    checking for --enable-datepick... yes
+    checking for --enable-detect_sm... yes
+    checking for --enable-dirpicker... yes
+    checking for --enable-display... yes
+    checking for --enable-editablebox... yes
+    checking for --enable-filectrl... yes
+    checking for --enable-filepicker... yes
+    checking for --enable-fontpicker... yes
+    checking for --enable-gauge... yes
+    checking for --enable-grid... yes
+    checking for --enable-headerctrl... yes
+    checking for --enable-hyperlink... yes
+    checking for --enable-imaglist... yes
+    checking for --enable-infobar... yes
+    checking for --enable-listbook... yes
+    checking for --enable-listbox... yes
+    checking for --enable-listctrl... yes
+    checking for --enable-notebook... yes
+    checking for --enable-notifmsg... yes
+    checking for --enable-odcombobox... yes
+    checking for --enable-popupwin... yes
+    checking for --enable-prefseditor... yes
+    checking for --enable-radiobox... yes
+    checking for --enable-radiobtn... yes
+    checking for --enable-richmsgdlg... yes
+    checking for --enable-richtooltip... yes
+    checking for --enable-rearrangectrl... yes
+    checking for --enable-sash... yes
+    checking for --enable-scrollbar... yes
+    checking for --enable-searchctrl... yes
+    checking for --enable-slider... yes
+    checking for --enable-spinbtn... yes
+    checking for --enable-spinctrl... yes
+    checking for --enable-splitter... yes
+    checking for --enable-statbmp... yes
+    checking for --enable-statbox... yes
+    checking for --enable-statline... yes
+    checking for --enable-stattext... yes
+    checking for --enable-statusbar... yes
+    checking for --enable-taskbaricon... yes
+    checking for --enable-tbarnative... yes
+    checking for --enable-textctrl... yes
+    checking for --enable-datepick... yes
+    checking for --enable-tipwindow... yes
+    checking for --enable-togglebtn... yes
+    checking for --enable-toolbar... yes
+    checking for --enable-toolbook... yes
+    checking for --enable-treebook... yes
+    checking for --enable-treectrl... yes
+    checking for --enable-treelist... yes
+    checking for --enable-commondlg... yes
+    checking for --enable-aboutdlg... yes
+    checking for --enable-choicedlg... yes
+    checking for --enable-coldlg... yes
+    checking for --enable-filedlg... yes
+    checking for --enable-finddlg... yes
+    checking for --enable-fontdlg... yes
+    checking for --enable-dirdlg... yes
+    checking for --enable-msgdlg... yes
+    checking for --enable-numberdlg... yes
+    checking for --enable-splash... yes
+    checking for --enable-textdlg... yes
+    checking for --enable-tipdlg... yes
+    checking for --enable-progressdlg... yes
+    checking for --enable-wizarddlg... yes
+    checking for --enable-menus... yes
+    checking for --enable-miniframe... yes
+    checking for --enable-tooltips... yes
+    checking for --enable-splines... yes
+    checking for --enable-mousewheel... yes
+    checking for --enable-validators... yes
+    checking for --enable-busyinfo... yes
+    checking for --enable-hotkey... auto
+    checking for --enable-joystick... yes
+    checking for --enable-metafile... auto
+    checking for --enable-dragimage... yes
+    checking for --enable-accessibility... no
+    checking for --enable-uiactionsim... yes
+    checking for --enable-dctransform... yes
+    checking for --enable-webviewwebkit... yes
+    checking for --enable-palette... yes
+    checking for --enable-image... yes
+    checking for --enable-gif... yes
+    checking for --enable-pcx... yes
+    checking for --enable-tga... yes
+    checking for --enable-iff... yes
+    checking for --enable-pnm... yes
+    checking for --enable-xpm... yes
+    checking for --enable-ico_cur... yes
+    checking for --enable-dccache... yes
+    checking for --enable-ps-in-msw... yes
+    checking for --enable-ownerdrawn... yes
+    checking for --enable-uxtheme... yes
+    checking for --enable-wxdib... yes
+    checking for --enable-webviewie... yes
+    checking for --enable-autoidman... no
+    checking for gcc... gcc
+    checking whether the C compiler works... yes
+    checking for C compiler default output file name... a.out
+    checking for suffix of executables...
+    checking whether we are cross compiling... no
+    checking for suffix of object files... o
+    checking whether we are using the GNU C compiler... yes
+    checking whether gcc accepts -g... yes
+    checking for gcc option to accept ISO C89... none needed
+    checking whether we are using the Intel C compiler... no
+    checking how to run the C preprocessor... gcc -E
+    checking for grep that handles long lines and -e... /usr/bin/grep
+    checking for egrep... /usr/bin/grep -E
+    checking whether gcc needs -traditional... no
+    checking for g++... g++
+    checking whether we are using the GNU C++ compiler... yes
+    checking whether g++ accepts -g... yes
+    checking whether we are using the Intel C++ compiler... no
+    checking whether we are using the Metrowerks C++ compiler... no
+    checking whether we are using the IBM xlC C++ compiler... no
+    checking for ar... ar
+    checking if C compiler (gcc -mmacosx-version-min=10.6) works with SDK/version options... yes
+    checking if C++ compiler (g++ -mmacosx-version-min=10.6) works with SDK/version options... configure: error: in `/private/tmp/pip-install-3zq1idam/wxpython/build/wxbld':
+    configure: error: no.  Try a different SDK
+    See `config.log' for more details
+    Error running configure
+    ERROR: failed building wxWidgets
+    Traceback (most recent call last):
+      File "build.py", line 1295, in cmd_build_wx
+        wxbuild.main(wxDir(), build_options)
+      File "/private/tmp/pip-install-3zq1idam/wxpython/buildtools/build_wxwidgets.py", line 373, in main
+        exitIfError(wxBuilder.configure(dir=wxRootDir, options=configure_opts),
+      File "/private/tmp/pip-install-3zq1idam/wxpython/buildtools/build_wxwidgets.py", line 85, in exitIfError
+        raise builder.BuildError(msg)
+    buildtools.builder.BuildError: Error running configure
+    Finished command: build_wx (0m1.912s)
+    Finished command: build (0m1.912s)
+    Command '"/Library/Developer/CommandLineTools/usr/bin/python3" -u build.py build' failed with exit code 1.
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: /Library/Developer/CommandLineTools/usr/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/tmp/pip-install-3zq1idam/wxpython/setup.py'"'"'; __file__='"'"'/private/tmp/pip-install-3zq1idam/wxpython/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/tmp/pip-record-1s1x6eog/install-record.txt --single-version-externally-managed --compile --install-headers /Library/Python/3.8/include/wxPython Check the logs for full command output.
+WARNING: You are using pip version 20.2.3; however, version 23.0.1 is available.
+You should consider upgrading via the '/Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip' command.
+ros-install-project@John-Pauls-MacBook-Pro ~ % sudo python3 -m pip install wxPython==4.0.2
+WARNING: The directory '/Users/ros-install-project/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting wxPython==4.0.2
+  Downloading wxPython-4.0.2.tar.gz (68.5 MB)
+     |████████████████████████████████| 68.5 MB 20.1 MB/s 
+Requirement already satisfied: six in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/site-packages (from wxPython==4.0.2) (1.15.0)
+Collecting PyPubSub
+  Downloading Pypubsub-4.0.3-py3-none-any.whl (61 kB)
+     |████████████████████████████████| 61 kB 3.9 MB/s 
+Building wheels for collected packages: wxPython
+  Building wheel for wxPython (setup.py) ... error
+  ERROR: Command errored out with exit status 1:
+   command: /Library/Developer/CommandLineTools/usr/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/tmp/pip-install-1vu5rqot/wxpython/setup.py'"'"'; __file__='"'"'/private/tmp/pip-install-1vu5rqot/wxpython/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /private/tmp/pip-wheel-t1sove_c
+       cwd: /private/tmp/pip-install-1vu5rqot/wxpython/
+  Complete output (330 lines):
+  running bdist_wheel
+  running build
+  WARNING: Building this way assumes that all generated files have been
+  generated already.  If that is not the case then use build.py directly
+  to generate the source and perform the build stage.  You can use
+  --skip-build with the bdist_* or install commands to avoid this
+  message and the wxWidgets and Phoenix build steps in the future.
+  
+  "/Library/Developer/CommandLineTools/usr/bin/python3" -u build.py build
+  Will build using: "/Library/Developer/CommandLineTools/usr/bin/python3"
+  3.8.9 (default, Oct 26 2021, 07:25:54)
+  [Clang 13.0.0 (clang-1300.0.29.30)]
+  Python's architecture is 64bit
+  cfg.VERSION: 4.0.2
+  
+  Running command: build
+  Running command: build_wx
+  wxWidgets build options: ['--wxpython', '--unicode', '--osx_cocoa']
+  Configure options: ['--enable-unicode', '--with-osx_cocoa', '--with-opengl', '--enable-sound', '--enable-graphics_ctx', '--enable-mediactrl', '--enable-display', '--enable-geometry', '--enable-debug_flag', '--enable-optimise', '--disable-debugreport', '--enable-uiactionsim', '--with-macosx-version-min=10.6']
+  /private/tmp/pip-install-1vu5rqot/wxpython/ext/wxWidgets/configure --enable-unicode --with-osx_cocoa --with-opengl --enable-sound --enable-graphics_ctx --enable-mediactrl --enable-display --enable-geometry --enable-debug_flag --enable-optimise --disable-debugreport --enable-uiactionsim --with-macosx-version-min=10.6
+  checking build system type... x86_64-apple-darwin20.6.0
+  checking host system type... x86_64-apple-darwin20.6.0
+  checking for --disable-gui... no
+  checking for --enable-monolithic... no
+  checking for --enable-plugins... no
+  checking for --without-subdirs... no
+  checking for --enable-official_build... no
+  checking for --disable-all-features... no
+  checking for --enable-universal... no
+  checking for --enable-nanox... no
+  checking for --enable-gpe... no
+  checking for toolkit... osx_cocoa
+  checking for --with-libpng... yes
+  checking for --with-libjpeg... yes
+  checking for --with-libtiff... yes
+  checking for --without-libjbig... no
+  checking for --without-liblzma... no
+  checking for --with-libxpm... yes
+  checking for --with-libiconv... yes
+  checking for --with-libmspack... no
+  checking for --without-gtkprint... no
+  checking for --with-gnomevfs... no
+  checking for --with-libnotify... yes
+  checking for --with-hildon... no
+  checking for --with-opengl... yes
+  checking for --with-dmalloc... no
+  checking for --with-sdl... no
+  checking for --with-regex... yes
+  checking for --with-zlib... yes
+  checking for --with-expat... yes
+  checking for --with-macosx-sdk...
+  checking for --with-macosx-version-min... 10.6
+  checking for --enable-debug... default
+  checking for --disable-debug_flag... no
+  checking for --enable-debug_info... no
+  checking for --enable-debug_gdb... no
+  checking for --enable-debug_cntxt... no
+  checking for --enable-mem_tracing... no
+  checking for --disable-shared... no
+  checking for --enable-stl... no
+  checking for --enable-std_containers... no
+  checking for --enable-std_iostreams... yes
+  checking for --enable-std_string... yes
+  checking for --enable-std_string_conv_in_wxstring... no
+  checking for --disable-unicode... no
+  checking for --enable-mslu... no
+  checking for --enable-utf8... no
+  checking for --enable-utf8only... no
+  checking for --enable-extended_rtti... no
+  checking for --disable-optimise... no
+  checking for --enable-profile... no
+  checking for --enable-no_rtti... no
+  checking for --enable-no_exceptions... no
+  checking for --enable-permissive... no
+  checking for --enable-no_deps... no
+  checking for --disable-vararg_macros... no
+  checking for --enable-universal_binary... no
+  checking for --enable-macosx_arch... no
+  checking for --enable-compat26... no
+  checking for --disable-compat28... no
+  checking for --disable-rpath... no
+  checking for --enable-objc_uniquifying... no
+  checking for --disable-visibility... no
+  checking for --disable-tls... no
+  checking for --enable-intl... yes
+  checking for --enable-xlocale... yes
+  checking for --enable-config... yes
+  checking for --enable-protocols... yes
+  checking for --enable-ftp... yes
+  checking for --enable-http... yes
+  checking for --enable-fileproto... yes
+  checking for --enable-sockets... yes
+  checking for --enable-ipv6... no
+  checking for --enable-ole... yes
+  checking for --enable-dataobj... yes
+  checking for --enable-ipc... yes
+  checking for --enable-baseevtloop... yes
+  checking for --enable-epollloop... yes
+  checking for --enable-selectloop... yes
+  checking for --enable-any... yes
+  checking for --enable-apple_ieee... yes
+  checking for --enable-arcstream... yes
+  checking for --enable-base64... yes
+  checking for --enable-backtrace... yes
+  checking for --enable-catch_segvs... yes
+  checking for --enable-cmdline... yes
+  checking for --enable-datetime... yes
+  checking for --enable-debugreport... no
+  checking for --enable-dialupman... yes
+  checking for --enable-dynlib... yes
+  checking for --enable-dynamicloader... yes
+  checking for --enable-exceptions... yes
+  checking for --enable-ffile... yes
+  checking for --enable-file... yes
+  checking for --enable-filehistory... yes
+  checking for --enable-filesystem... yes
+  checking for --enable-fontenum... yes
+  checking for --enable-fontmap... yes
+  checking for --enable-fs_archive... yes
+  checking for --enable-fs_inet... yes
+  checking for --enable-fs_zip... yes
+  checking for --enable-fsvolume... yes
+  checking for --enable-fswatcher... yes
+  checking for --enable-geometry... yes
+  checking for --enable-log... yes
+  checking for --enable-longlong... yes
+  checking for --enable-mimetype... yes
+  checking for --enable-printfposparam... yes
+  checking for --enable-snglinst... yes
+  checking for --enable-sound... yes
+  checking for --enable-stdpaths... yes
+  checking for --enable-stopwatch... yes
+  checking for --enable-streams... yes
+  checking for --enable-sysoptions... yes
+  checking for --enable-tarstream... yes
+  checking for --enable-textbuf... yes
+  checking for --enable-textfile... yes
+  checking for --enable-timer... yes
+  checking for --enable-variant... yes
+  checking for --enable-zipstream... yes
+  checking for --enable-url... yes
+  checking for --enable-protocol... yes
+  checking for --enable-protocol_http... yes
+  checking for --enable-protocol_ftp... yes
+  checking for --enable-protocol_file... yes
+  checking for --enable-threads... yes
+  checking for --enable-iniconf... no
+  checking for --enable-regkey... yes
+  checking for --enable-docview... yes
+  checking for --enable-help... yes
+  checking for --enable-mshtmlhelp... yes
+  checking for --enable-html... yes
+  checking for --enable-htmlhelp... yes
+  checking for --enable-xrc... yes
+  checking for --enable-aui... yes
+  checking for --enable-propgrid... yes
+  checking for --enable-ribbon... yes
+  checking for --enable-stc... yes
+  checking for --enable-constraints... yes
+  checking for --enable-loggui... yes
+  checking for --enable-logwin... yes
+  checking for --enable-logdialog... yes
+  checking for --enable-mdi... yes
+  checking for --enable-mdidoc... yes
+  checking for --enable-mediactrl... yes
+  checking for --enable-gstreamer8... no
+  checking for --enable-richtext... yes
+  checking for --enable-postscript... yes
+  checking for --enable-printarch... yes
+  checking for --enable-svg... yes
+  checking for --enable-webkit... yes
+  checking for --enable-webview... yes
+  checking for --disable-qtkit... no
+  checking for --enable-clipboard... yes
+  checking for --enable-dnd... yes
+  checking for --disable-controls... no
+  checking for --enable-markup... yes
+  checking for --enable-accel... yes
+  checking for --enable-animatectrl... yes
+  checking for --enable-bannerwindow... yes
+  checking for --enable-artstd... yes
+  checking for --enable-arttango... auto
+  checking for --enable-bmpbutton... yes
+  checking for --enable-bmpcombobox... yes
+  checking for --enable-button... yes
+  checking for --enable-calendar... yes
+  checking for --enable-caret... yes
+  checking for --enable-checkbox... yes
+  checking for --enable-checklst... yes
+  checking for --enable-choice... yes
+  checking for --enable-choicebook... yes
+  checking for --enable-collpane... yes
+  checking for --enable-colourpicker... yes
+  checking for --enable-combobox... yes
+  checking for --enable-comboctrl... yes
+  checking for --enable-commandlinkbutton... yes
+  checking for --enable-dataviewctrl... yes
+  checking for --enable-datepick... yes
+  checking for --enable-detect_sm... yes
+  checking for --enable-dirpicker... yes
+  checking for --enable-display... yes
+  checking for --enable-editablebox... yes
+  checking for --enable-filectrl... yes
+  checking for --enable-filepicker... yes
+  checking for --enable-fontpicker... yes
+  checking for --enable-gauge... yes
+  checking for --enable-grid... yes
+  checking for --enable-headerctrl... yes
+  checking for --enable-hyperlink... yes
+  checking for --enable-imaglist... yes
+  checking for --enable-infobar... yes
+  checking for --enable-listbook... yes
+  checking for --enable-listbox... yes
+  checking for --enable-listctrl... yes
+  checking for --enable-notebook... yes
+  checking for --enable-notifmsg... yes
+  checking for --enable-odcombobox... yes
+  checking for --enable-popupwin... yes
+  checking for --enable-prefseditor... yes
+  checking for --enable-radiobox... yes
+  checking for --enable-radiobtn... yes
+  checking for --enable-richmsgdlg... yes
+  checking for --enable-richtooltip... yes
+  checking for --enable-rearrangectrl... yes
+  checking for --enable-sash... yes
+  checking for --enable-scrollbar... yes
+  checking for --enable-searchctrl... yes
+  checking for --enable-slider... yes
+  checking for --enable-spinbtn... yes
+  checking for --enable-spinctrl... yes
+  checking for --enable-splitter... yes
+  checking for --enable-statbmp... yes
+  checking for --enable-statbox... yes
+  checking for --enable-statline... yes
+  checking for --enable-stattext... yes
+  checking for --enable-statusbar... yes
+  checking for --enable-taskbaricon... yes
+  checking for --enable-tbarnative... yes
+  checking for --enable-textctrl... yes
+  checking for --enable-datepick... yes
+  checking for --enable-tipwindow... yes
+  checking for --enable-togglebtn... yes
+  checking for --enable-toolbar... yes
+  checking for --enable-toolbook... yes
+  checking for --enable-treebook... yes
+  checking for --enable-treectrl... yes
+  checking for --enable-treelist... yes
+  checking for --enable-commondlg... yes
+  checking for --enable-aboutdlg... yes
+  checking for --enable-choicedlg... yes
+  checking for --enable-coldlg... yes
+  checking for --enable-filedlg... yes
+  checking for --enable-finddlg... yes
+  checking for --enable-fontdlg... yes
+  checking for --enable-dirdlg... yes
+  checking for --enable-msgdlg... yes
+  checking for --enable-numberdlg... yes
+  checking for --enable-splash... yes
+  checking for --enable-textdlg... yes
+  checking for --enable-tipdlg... yes
+  checking for --enable-progressdlg... yes
+  checking for --enable-wizarddlg... yes
+  checking for --enable-menus... yes
+  checking for --enable-miniframe... yes
+  checking for --enable-tooltips... yes
+  checking for --enable-splines... yes
+  checking for --enable-mousewheel... yes
+  checking for --enable-validators... yes
+  checking for --enable-busyinfo... yes
+  checking for --enable-hotkey... auto
+  checking for --enable-joystick... yes
+  checking for --enable-metafile... auto
+  checking for --enable-dragimage... yes
+  checking for --enable-accessibility... no
+  checking for --enable-uiactionsim... yes
+  checking for --enable-dctransform... yes
+  checking for --enable-webviewwebkit... yes
+  checking for --enable-palette... yes
+  checking for --enable-image... yes
+  checking for --enable-gif... yes
+  checking for --enable-pcx... yes
+  checking for --enable-tga... yes
+  checking for --enable-iff... yes
+  checking for --enable-pnm... yes
+  checking for --enable-xpm... yes
+  checking for --enable-ico_cur... yes
+  checking for --enable-dccache... yes
+  checking for --enable-ps-in-msw... yes
+  checking for --enable-ownerdrawn... yes
+  checking for --enable-uxtheme... yes
+  checking for --enable-wxdib... yes
+  checking for --enable-webviewie... yes
+  checking for --enable-autoidman... no
+  checking for gcc... gcc
+  checking whether the C compiler works... yes
+  checking for C compiler default output file name... a.out
+  checking for suffix of executables...
+  checking whether we are cross compiling... no
+  checking for suffix of object files... o
+  checking whether we are using the GNU C compiler... yes
+  checking whether gcc accepts -g... yes
+  checking for gcc option to accept ISO C89... none needed
+  checking whether we are using the Intel C compiler... no
+  checking how to run the C preprocessor... gcc -E
+  checking for grep that handles long lines and -e... /usr/bin/grep
+  checking for egrep... /usr/bin/grep -E
+  checking whether gcc needs -traditional... no
+  checking for g++... g++
+  checking whether we are using the GNU C++ compiler... yes
+  checking whether g++ accepts -g... yes
+  checking whether we are using the Intel C++ compiler... no
+  checking whether we are using the IBM xlC C++ compiler... no
+  checking for ar... ar
+  checking if C compiler (gcc -mmacosx-version-min=10.6) works with SDK/version options... yes
+  checking if C++ compiler (g++ -mmacosx-version-min=10.6) works with SDK/version options... configure: error: in `/private/tmp/pip-install-1vu5rqot/wxpython/build/wxbld':
+  configure: error: no.  Try a different SDK
+  See `config.log' for more details
+  Error running configure
+  ERROR: failed building wxWidgets
+  Traceback (most recent call last):
+    File "build.py", line 1321, in cmd_build_wx
+      wxbuild.main(wxDir(), build_options)
+    File "/private/tmp/pip-install-1vu5rqot/wxpython/buildtools/build_wxwidgets.py", line 373, in main
+      exitIfError(wxBuilder.configure(dir=wxRootDir, options=configure_opts),
+    File "/private/tmp/pip-install-1vu5rqot/wxpython/buildtools/build_wxwidgets.py", line 85, in exitIfError
+      raise builder.BuildError(msg)
+  buildtools.builder.BuildError: Error running configure
+  Finished command: build_wx (0m1.962s)
+  Finished command: build (0m1.962s)
+  Command '"/Library/Developer/CommandLineTools/usr/bin/python3" -u build.py build' failed with exit code 1.
+  ----------------------------------------
+  ERROR: Failed building wheel for wxPython
+  Running setup.py clean for wxPython
+Failed to build wxPython
+Installing collected packages: PyPubSub, wxPython
+    Running setup.py install for wxPython ... error
+    ERROR: Command errored out with exit status 1:
+     command: /Library/Developer/CommandLineTools/usr/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/tmp/pip-install-1vu5rqot/wxpython/setup.py'"'"'; __file__='"'"'/private/tmp/pip-install-1vu5rqot/wxpython/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/tmp/pip-record-p3rnto15/install-record.txt --single-version-externally-managed --compile --install-headers /Library/Python/3.8/include/wxPython
+         cwd: /private/tmp/pip-install-1vu5rqot/wxpython/
+    Complete output (330 lines):
+    running install
+    running build
+    WARNING: Building this way assumes that all generated files have been
+    generated already.  If that is not the case then use build.py directly
+    to generate the source and perform the build stage.  You can use
+    --skip-build with the bdist_* or install commands to avoid this
+    message and the wxWidgets and Phoenix build steps in the future.
+    
+    "/Library/Developer/CommandLineTools/usr/bin/python3" -u build.py build
+    Will build using: "/Library/Developer/CommandLineTools/usr/bin/python3"
+    3.8.9 (default, Oct 26 2021, 07:25:54)
+    [Clang 13.0.0 (clang-1300.0.29.30)]
+    Python's architecture is 64bit
+    cfg.VERSION: 4.0.2
+    
+    Running command: build
+    Running command: build_wx
+    wxWidgets build options: ['--wxpython', '--unicode', '--osx_cocoa']
+    Configure options: ['--enable-unicode', '--with-osx_cocoa', '--with-opengl', '--enable-sound', '--enable-graphics_ctx', '--enable-mediactrl', '--enable-display', '--enable-geometry', '--enable-debug_flag', '--enable-optimise', '--disable-debugreport', '--enable-uiactionsim', '--with-macosx-version-min=10.6']
+    /private/tmp/pip-install-1vu5rqot/wxpython/ext/wxWidgets/configure --enable-unicode --with-osx_cocoa --with-opengl --enable-sound --enable-graphics_ctx --enable-mediactrl --enable-display --enable-geometry --enable-debug_flag --enable-optimise --disable-debugreport --enable-uiactionsim --with-macosx-version-min=10.6
+    checking build system type... x86_64-apple-darwin20.6.0
+    checking host system type... x86_64-apple-darwin20.6.0
+    checking for --disable-gui... no
+    checking for --enable-monolithic... no
+    checking for --enable-plugins... no
+    checking for --without-subdirs... no
+    checking for --enable-official_build... no
+    checking for --disable-all-features... no
+    checking for --enable-universal... no
+    checking for --enable-nanox... no
+    checking for --enable-gpe... no
+    checking for toolkit... osx_cocoa
+    checking for --with-libpng... yes
+    checking for --with-libjpeg... yes
+    checking for --with-libtiff... yes
+    checking for --without-libjbig... no
+    checking for --without-liblzma... no
+    checking for --with-libxpm... yes
+    checking for --with-libiconv... yes
+    checking for --with-libmspack... no
+    checking for --without-gtkprint... no
+    checking for --with-gnomevfs... no
+    checking for --with-libnotify... yes
+    checking for --with-hildon... no
+    checking for --with-opengl... yes
+    checking for --with-dmalloc... no
+    checking for --with-sdl... no
+    checking for --with-regex... yes
+    checking for --with-zlib... yes
+    checking for --with-expat... yes
+    checking for --with-macosx-sdk...
+    checking for --with-macosx-version-min... 10.6
+    checking for --enable-debug... default
+    checking for --disable-debug_flag... no
+    checking for --enable-debug_info... no
+    checking for --enable-debug_gdb... no
+    checking for --enable-debug_cntxt... no
+    checking for --enable-mem_tracing... no
+    checking for --disable-shared... no
+    checking for --enable-stl... no
+    checking for --enable-std_containers... no
+    checking for --enable-std_iostreams... yes
+    checking for --enable-std_string... yes
+    checking for --enable-std_string_conv_in_wxstring... no
+    checking for --disable-unicode... no
+    checking for --enable-mslu... no
+    checking for --enable-utf8... no
+    checking for --enable-utf8only... no
+    checking for --enable-extended_rtti... no
+    checking for --disable-optimise... no
+    checking for --enable-profile... no
+    checking for --enable-no_rtti... no
+    checking for --enable-no_exceptions... no
+    checking for --enable-permissive... no
+    checking for --enable-no_deps... no
+    checking for --disable-vararg_macros... no
+    checking for --enable-universal_binary... no
+    checking for --enable-macosx_arch... no
+    checking for --enable-compat26... no
+    checking for --disable-compat28... no
+    checking for --disable-rpath... no
+    checking for --enable-objc_uniquifying... no
+    checking for --disable-visibility... no
+    checking for --disable-tls... no
+    checking for --enable-intl... yes
+    checking for --enable-xlocale... yes
+    checking for --enable-config... yes
+    checking for --enable-protocols... yes
+    checking for --enable-ftp... yes
+    checking for --enable-http... yes
+    checking for --enable-fileproto... yes
+    checking for --enable-sockets... yes
+    checking for --enable-ipv6... no
+    checking for --enable-ole... yes
+    checking for --enable-dataobj... yes
+    checking for --enable-ipc... yes
+    checking for --enable-baseevtloop... yes
+    checking for --enable-epollloop... yes
+    checking for --enable-selectloop... yes
+    checking for --enable-any... yes
+    checking for --enable-apple_ieee... yes
+    checking for --enable-arcstream... yes
+    checking for --enable-base64... yes
+    checking for --enable-backtrace... yes
+    checking for --enable-catch_segvs... yes
+    checking for --enable-cmdline... yes
+    checking for --enable-datetime... yes
+    checking for --enable-debugreport... no
+    checking for --enable-dialupman... yes
+    checking for --enable-dynlib... yes
+    checking for --enable-dynamicloader... yes
+    checking for --enable-exceptions... yes
+    checking for --enable-ffile... yes
+    checking for --enable-file... yes
+    checking for --enable-filehistory... yes
+    checking for --enable-filesystem... yes
+    checking for --enable-fontenum... yes
+    checking for --enable-fontmap... yes
+    checking for --enable-fs_archive... yes
+    checking for --enable-fs_inet... yes
+    checking for --enable-fs_zip... yes
+    checking for --enable-fsvolume... yes
+    checking for --enable-fswatcher... yes
+    checking for --enable-geometry... yes
+    checking for --enable-log... yes
+    checking for --enable-longlong... yes
+    checking for --enable-mimetype... yes
+    checking for --enable-printfposparam... yes
+    checking for --enable-snglinst... yes
+    checking for --enable-sound... yes
+    checking for --enable-stdpaths... yes
+    checking for --enable-stopwatch... yes
+    checking for --enable-streams... yes
+    checking for --enable-sysoptions... yes
+    checking for --enable-tarstream... yes
+    checking for --enable-textbuf... yes
+    checking for --enable-textfile... yes
+    checking for --enable-timer... yes
+    checking for --enable-variant... yes
+    checking for --enable-zipstream... yes
+    checking for --enable-url... yes
+    checking for --enable-protocol... yes
+    checking for --enable-protocol_http... yes
+    checking for --enable-protocol_ftp... yes
+    checking for --enable-protocol_file... yes
+    checking for --enable-threads... yes
+    checking for --enable-iniconf... no
+    checking for --enable-regkey... yes
+    checking for --enable-docview... yes
+    checking for --enable-help... yes
+    checking for --enable-mshtmlhelp... yes
+    checking for --enable-html... yes
+    checking for --enable-htmlhelp... yes
+    checking for --enable-xrc... yes
+    checking for --enable-aui... yes
+    checking for --enable-propgrid... yes
+    checking for --enable-ribbon... yes
+    checking for --enable-stc... yes
+    checking for --enable-constraints... yes
+    checking for --enable-loggui... yes
+    checking for --enable-logwin... yes
+    checking for --enable-logdialog... yes
+    checking for --enable-mdi... yes
+    checking for --enable-mdidoc... yes
+    checking for --enable-mediactrl... yes
+    checking for --enable-gstreamer8... no
+    checking for --enable-richtext... yes
+    checking for --enable-postscript... yes
+    checking for --enable-printarch... yes
+    checking for --enable-svg... yes
+    checking for --enable-webkit... yes
+    checking for --enable-webview... yes
+    checking for --disable-qtkit... no
+    checking for --enable-clipboard... yes
+    checking for --enable-dnd... yes
+    checking for --disable-controls... no
+    checking for --enable-markup... yes
+    checking for --enable-accel... yes
+    checking for --enable-animatectrl... yes
+    checking for --enable-bannerwindow... yes
+    checking for --enable-artstd... yes
+    checking for --enable-arttango... auto
+    checking for --enable-bmpbutton... yes
+    checking for --enable-bmpcombobox... yes
+    checking for --enable-button... yes
+    checking for --enable-calendar... yes
+    checking for --enable-caret... yes
+    checking for --enable-checkbox... yes
+    checking for --enable-checklst... yes
+    checking for --enable-choice... yes
+    checking for --enable-choicebook... yes
+    checking for --enable-collpane... yes
+    checking for --enable-colourpicker... yes
+    checking for --enable-combobox... yes
+    checking for --enable-comboctrl... yes
+    checking for --enable-commandlinkbutton... yes
+    checking for --enable-dataviewctrl... yes
+    checking for --enable-datepick... yes
+    checking for --enable-detect_sm... yes
+    checking for --enable-dirpicker... yes
+    checking for --enable-display... yes
+    checking for --enable-editablebox... yes
+    checking for --enable-filectrl... yes
+    checking for --enable-filepicker... yes
+    checking for --enable-fontpicker... yes
+    checking for --enable-gauge... yes
+    checking for --enable-grid... yes
+    checking for --enable-headerctrl... yes
+    checking for --enable-hyperlink... yes
+    checking for --enable-imaglist... yes
+    checking for --enable-infobar... yes
+    checking for --enable-listbook... yes
+    checking for --enable-listbox... yes
+    checking for --enable-listctrl... yes
+    checking for --enable-notebook... yes
+    checking for --enable-notifmsg... yes
+    checking for --enable-odcombobox... yes
+    checking for --enable-popupwin... yes
+    checking for --enable-prefseditor... yes
+    checking for --enable-radiobox... yes
+    checking for --enable-radiobtn... yes
+    checking for --enable-richmsgdlg... yes
+    checking for --enable-richtooltip... yes
+    checking for --enable-rearrangectrl... yes
+    checking for --enable-sash... yes
+    checking for --enable-scrollbar... yes
+    checking for --enable-searchctrl... yes
+    checking for --enable-slider... yes
+    checking for --enable-spinbtn... yes
+    checking for --enable-spinctrl... yes
+    checking for --enable-splitter... yes
+    checking for --enable-statbmp... yes
+    checking for --enable-statbox... yes
+    checking for --enable-statline... yes
+    checking for --enable-stattext... yes
+    checking for --enable-statusbar... yes
+    checking for --enable-taskbaricon... yes
+    checking for --enable-tbarnative... yes
+    checking for --enable-textctrl... yes
+    checking for --enable-datepick... yes
+    checking for --enable-tipwindow... yes
+    checking for --enable-togglebtn... yes
+    checking for --enable-toolbar... yes
+    checking for --enable-toolbook... yes
+    checking for --enable-treebook... yes
+    checking for --enable-treectrl... yes
+    checking for --enable-treelist... yes
+    checking for --enable-commondlg... yes
+    checking for --enable-aboutdlg... yes
+    checking for --enable-choicedlg... yes
+    checking for --enable-coldlg... yes
+    checking for --enable-filedlg... yes
+    checking for --enable-finddlg... yes
+    checking for --enable-fontdlg... yes
+    checking for --enable-dirdlg... yes
+    checking for --enable-msgdlg... yes
+    checking for --enable-numberdlg... yes
+    checking for --enable-splash... yes
+    checking for --enable-textdlg... yes
+    checking for --enable-tipdlg... yes
+    checking for --enable-progressdlg... yes
+    checking for --enable-wizarddlg... yes
+    checking for --enable-menus... yes
+    checking for --enable-miniframe... yes
+    checking for --enable-tooltips... yes
+    checking for --enable-splines... yes
+    checking for --enable-mousewheel... yes
+    checking for --enable-validators... yes
+    checking for --enable-busyinfo... yes
+    checking for --enable-hotkey... auto
+    checking for --enable-joystick... yes
+    checking for --enable-metafile... auto
+    checking for --enable-dragimage... yes
+    checking for --enable-accessibility... no
+    checking for --enable-uiactionsim... yes
+    checking for --enable-dctransform... yes
+    checking for --enable-webviewwebkit... yes
+    checking for --enable-palette... yes
+    checking for --enable-image... yes
+    checking for --enable-gif... yes
+    checking for --enable-pcx... yes
+    checking for --enable-tga... yes
+    checking for --enable-iff... yes
+    checking for --enable-pnm... yes
+    checking for --enable-xpm... yes
+    checking for --enable-ico_cur... yes
+    checking for --enable-dccache... yes
+    checking for --enable-ps-in-msw... yes
+    checking for --enable-ownerdrawn... yes
+    checking for --enable-uxtheme... yes
+    checking for --enable-wxdib... yes
+    checking for --enable-webviewie... yes
+    checking for --enable-autoidman... no
+    checking for gcc... gcc
+    checking whether the C compiler works... yes
+    checking for C compiler default output file name... a.out
+    checking for suffix of executables...
+    checking whether we are cross compiling... no
+    checking for suffix of object files... o
+    checking whether we are using the GNU C compiler... yes
+    checking whether gcc accepts -g... yes
+    checking for gcc option to accept ISO C89... none needed
+    checking whether we are using the Intel C compiler... no
+    checking how to run the C preprocessor... gcc -E
+    checking for grep that handles long lines and -e... /usr/bin/grep
+    checking for egrep... /usr/bin/grep -E
+    checking whether gcc needs -traditional... no
+    checking for g++... g++
+    checking whether we are using the GNU C++ compiler... yes
+    checking whether g++ accepts -g... yes
+    checking whether we are using the Intel C++ compiler... no
+    checking whether we are using the IBM xlC C++ compiler... no
+    checking for ar... ar
+    checking if C compiler (gcc -mmacosx-version-min=10.6) works with SDK/version options... yes
+    checking if C++ compiler (g++ -mmacosx-version-min=10.6) works with SDK/version options... configure: error: in `/private/tmp/pip-install-1vu5rqot/wxpython/build/wxbld':
+    configure: error: no.  Try a different SDK
+    See `config.log' for more details
+    Error running configure
+    ERROR: failed building wxWidgets
+    Traceback (most recent call last):
+      File "build.py", line 1321, in cmd_build_wx
+        wxbuild.main(wxDir(), build_options)
+      File "/private/tmp/pip-install-1vu5rqot/wxpython/buildtools/build_wxwidgets.py", line 373, in main
+        exitIfError(wxBuilder.configure(dir=wxRootDir, options=configure_opts),
+      File "/private/tmp/pip-install-1vu5rqot/wxpython/buildtools/build_wxwidgets.py", line 85, in exitIfError
+        raise builder.BuildError(msg)
+    buildtools.builder.BuildError: Error running configure
+    Finished command: build_wx (0m1.833s)
+    Finished command: build (0m1.833s)
+    Command '"/Library/Developer/CommandLineTools/usr/bin/python3" -u build.py build' failed with exit code 1.
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: /Library/Developer/CommandLineTools/usr/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/tmp/pip-install-1vu5rqot/wxpython/setup.py'"'"'; __file__='"'"'/private/tmp/pip-install-1vu5rqot/wxpython/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/tmp/pip-record-p3rnto15/install-record.txt --single-version-externally-managed --compile --install-headers /Library/Python/3.8/include/wxPython Check the logs for full command output.
+WARNING: You are using pip version 20.2.3; however, version 23.0.1 is available.
+You should consider upgrading via the '/Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip' command.
+ros-install-project@John-Pauls-MacBook-Pro ~ % sudo python3 -m pip install wxPython       
+WARNING: The directory '/Users/ros-install-project/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting wxPython
+  Downloading wxPython-4.2.0.tar.gz (71.0 MB)
+     |████████████████████████████████| 71.0 MB 5.8 MB/s 
+    ERROR: Command errored out with exit status 1:
+     command: /Library/Developer/CommandLineTools/usr/bin/python3 -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/tmp/pip-install-bdqvf40j/wxpython/setup.py'"'"'; __file__='"'"'/private/tmp/pip-install-bdqvf40j/wxpython/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /private/tmp/pip-pip-egg-info-b3ykhj1n
+         cwd: /private/tmp/pip-install-bdqvf40j/wxpython/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/private/tmp/pip-install-bdqvf40j/wxpython/setup.py", line 27, in <module>
+        from buildtools.config import Config, msg, opj, runcmd, canGetSOName, getSOName
+      File "/private/tmp/pip-install-bdqvf40j/wxpython/buildtools/config.py", line 30, in <module>
+        from attrdict import AttrDict
+    ModuleNotFoundError: No module named 'attrdict'
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+WARNING: You are using pip version 20.2.3; however, version 23.0.1 is available.
+You should consider upgrading via the '/Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip' command.
+ros-install-project@John-Pauls-MacBook-Pro ~ % sudo python3 -m pip install attrdict
+WARNING: The directory '/Users/ros-install-project/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting attrdict
+  Downloading attrdict-2.0.1-py2.py3-none-any.whl (9.9 kB)
+Requirement already satisfied: six in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/site-packages (from attrdict) (1.15.0)
+Installing collected packages: attrdict
+Successfully installed attrdict-2.0.1
+WARNING: You are using pip version 20.2.3; however, version 23.0.1 is available.
+You should consider upgrading via the '/Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip' command.
+ros-install-project@John-Pauls-MacBook-Pro ~ % sudo python3 -m pip install wxPython
+WARNING: The directory '/Users/ros-install-project/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting wxPython
+  Downloading wxPython-4.2.0.tar.gz (71.0 MB)
+     |████████████████████████████████| 71.0 MB 3.5 MB/s 
+Collecting pillow
+  Downloading Pillow-9.4.0.tar.gz (50.4 MB)
+     |████████████████████████████████| 50.4 MB 8.9 MB/s 
+Requirement already satisfied: six in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/site-packages (from wxPython) (1.15.0)
+Collecting numpy
+  Downloading numpy-1.24.2.tar.gz (10.9 MB)
+     |████████████████████████████████| 10.9 MB 6.1 MB/s 
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+    Preparing wheel metadata ... done
+Building wheels for collected packages: wxPython, pillow, numpy
+  Building wheel for wxPython (setup.py) ... \
